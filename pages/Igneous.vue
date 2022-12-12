@@ -163,6 +163,17 @@
     
     
             </div>
+
+          <div class="grid grid-cols-4 isolate bg-fixed top-52">
+
+
+            <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
+              <AppSideNav/>
+
+            </div>
+
+            <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+
             <div id="summary" class="igneous-summary w-3/4 m-auto mt-16 indent-2">
     
     
@@ -335,8 +346,9 @@
 
  <p><span>Q: </span> Why does melting take place beneath the axis of a mid-ocean ridge?</p>
  <p><span>A: </span> Hot asthenosphere rises to take the place of material that has poured to either side the axis. Closer to the surface, pressure is less than at the depth from which the atmospheric material rose, so the asthenosphere partially melts.</p>
-    
-    
+
+            </div>
+            </div>
     
     
             </div>
@@ -357,7 +369,7 @@
     
     <style scoped>
     .igneous-hero {
-        background-image: url('/pexels-pixabay-87651.jpg');
+        background-image: url('/imgs/pexels-pixabay-87651.jpg');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -377,14 +389,14 @@
     }
     
     .igneous-banner1 {
-        background-image: url('/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
     
     .igneous-banner2 {
-        background-image: url('/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover

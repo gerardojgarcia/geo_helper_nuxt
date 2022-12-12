@@ -10,9 +10,9 @@ export default {
 <ul class="flex flex-col w-full space-y-2 ">
   <NuxtLink to="Earth">Earth</NuxtLink>
   <NuxtLink to="Minerals">Minerals</NuxtLink>
-  <NuxtLink>Igneous Rocks</NuxtLink>
-  <NuxtLink>Metamorphic Rocks</NuxtLink>
-  <NuxtLink>Sedimentary Rocks</NuxtLink>
+  <NuxtLink to="Igneous">Igneous Rocks</NuxtLink>
+  <NuxtLink to="Metamorphic">Metamorphic Rocks</NuxtLink>
+  <NuxtLink to="Sedimentary">Sedimentary Rocks</NuxtLink>
   <NuxtLink>Plate Tectonics</NuxtLink>
   <NuxtLink>Volcanoes</NuxtLink>
   <NuxtLink></NuxtLink>
