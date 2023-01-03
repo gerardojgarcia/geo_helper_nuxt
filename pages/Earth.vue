@@ -232,7 +232,7 @@ export default {
 
 
 
-      <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+        <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
 
 
         <div id="summary" class="earth-summary  m-auto mt-16 indent-2">
@@ -578,7 +578,6 @@ export default {
 
 
         <ToTop />
-        <ToBottom/>
 
     </div>
       </div>

@@ -1,8 +1,8 @@
 <script>
+import {FontAwesomeIcon} from "@fortawesome/vue-fontawesome";
 export default {
     name: 'Community',
-
-
+  components: {FontAwesomeIcon},
 }
 
 
@@ -46,7 +46,7 @@ export default {
 
             <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
             
-                <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
+                <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><font-awesome-icon icon="fa-solid fa-user" class=" place-center self-center ml-3"></font-awesome-icon></div>
                 <div class="data font-bold py-4 mt-4">Geology of Los Angeles</div>
                 <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
             
@@ -54,7 +54,7 @@ export default {
             </div>
             <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
             
-            <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
+            <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><font-awesome-icon icon="fa-solid fa-user" class=" place-center self-center ml-3"></font-awesome-icon></div>
             <div class="data font-bold py-4 mt-4">The San Andreas Fault</div>
             <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
         

@@ -74,7 +74,7 @@
             {
                 id: 1, 
                 question: "Igneous Rocks _____",
-                answerid: 'quiz-answer',
+                answerId: 'quiz-answer',
                 answer1: "Are formed through hte freezing of melt",
                 answer2: " All are correct  ",
                 answer3: "Are the most common type",
@@ -84,7 +84,7 @@
             {
                 id: 2, 
                 question: "Very early in Earth's history, it was so hot hat the surface was likely entirely molten",
-                answerid: 'quiz-answer2',
+                answerId: 'quiz-answer2',
                 answer1: "False",
                 answer2: "True",
                 
@@ -93,18 +93,18 @@
             {
                 id: 3, 
                 question: "Which type of magma has the greatest silica content",
-                answerid: 'quiz-answer3',
+                answerId: 'quiz-answer3',
                 answer1: "mafic",
                 answer2: "Felsic",
                 answer3: "intermediate",
                 answer4: "ultramafic",
-                method: "@click='correct(quiz.answerid)'"
+                method: "@click='correct(quiz.answerId)'"
 
             },
             {
                 id: 4, 
                 question: "The formation of magma within the Earth is NOT caused by which of the following processes?",
-                answerid: 'quiz-answer4',
+                answerId: 'quiz-answer4',
                 answer1: "decompression (drop in pressure)",
                 answer2: "Los off volatiles to the atmosphere",
                 answer3: "transfer of heat form adjacent magma or very hot rocks",
@@ -113,8 +113,8 @@
             },
             {
                 id: 5, 
-                question: "Compared to magic igneous rocks, all felsic igneous rocks _____",
-                answerid: 'quiz-answer5',
+                question: "Compared to mafic igneous rocks, all felsic igneous rocks _____",
+                answerId: 'quiz-answer5',
                 answer1: "cool and solidify more quickly",
                 answer2: "Solidify at lower tempereatures",
                 answer3: "cool and solidify more slowly",
@@ -124,7 +124,7 @@
             {
                 id: 6, 
                 question: "Viscosity depends on ______",
-                answerid: 'quiz-answer6',
+                answerId: 'quiz-answer6',
                 answer1: "temperature",
                 answer2: "All are correct",
                 answer3: "Volatile content",
@@ -134,7 +134,7 @@
             {
                 id: 7, 
                 question: "In Bowen's Reaction Series, which mineral crystallizes first?",
-                answerid: 'quiz-answer7',
+                answerId: 'quiz-answer7',
                 answer1: "Plagioclase",
                 answer2: "olivine",
                 answer3: "Pyroxene",
@@ -238,11 +238,11 @@
     
     
     
-            <div class="igneous_points w-3/4 m-auto mt-16">
+            <div id="key_points" class="igneous_points w-3/4 m-auto mt-16">
     
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Key Points</strong></div>
 
-<p>- the Majority of the crus and mantle is made up of igneous rocks
+<p>- the Majority of the crust and mantle is made up of igneous rocks
 </p>
 <p>- Igneous rocks solidify from melt - either lava or magma; melts are derived from pressure release. The addition of volatiles, or heat transfer from rising magma.</p>
 <p>- Igneous rocks are classified on the basis of texture. Which may be interlocking. Fragmental, or glassy, and also on the basis of mineral composition (felsic, intermediate, magic, or ultramafic) interlocking textures include coarse-grained and fine-grained examples. Grain size and cmopotino should be known for he standard sis: granite. Diorite, gabbro, rhyolite, andesite, and basalt.</p>
@@ -282,7 +282,7 @@
             </div>
     
     
-            <div class="igneous_questions w-3/4 m-auto mt-16">
+            <div id='questions_answers' class="igneous_questions w-3/4 m-auto mt-16">
     
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Questions & Answers</strong></div>
     
@@ -348,6 +348,10 @@
  <p><span>A: </span> Hot asthenosphere rises to take the place of material that has poured to either side the axis. Closer to the surface, pressure is less than at the depth from which the atmospheric material rose, so the asthenosphere partially melts.</p>
 
             </div>
+
+              <Quiz :quiz="quiz"/>
+              <ToTop/>
+
             </div>
     
     
@@ -359,7 +363,7 @@
     
     
     
-    <Quiz :quiz="quiz"/>
+
     
     
         </div>
