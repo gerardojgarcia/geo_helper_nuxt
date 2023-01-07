@@ -15,11 +15,11 @@
 <template>
 
 
-    <div class=" tutor-container w-full flex flex-col md:flex-row md:py-16 pb-4 bg-yellow-400 relative justify-between px-24 ">
+    <div class=" tutor-container w-full flex flex-col md:flex-row md:py-16 pb-4 bg-yellow-400 relative justify-between px-24 " >
 
         <div class="tutor-info text-left flex flex-col m-16 pt-8">
 
-        <div class="mt-8 mb-16">
+        <div class="mt-8 mb-16" data-aos="fade-up">
 
             <h3 class="text-5xl ml-8 mb-2 text-shadow-lg">Get Online Help Right Now!</h3>
 
@@ -29,7 +29,7 @@
 
         </div>
 
-        <div class="tutor-form ml-2 w-full ">
+        <div class="tutor-form ml-2 w-full " data-aos="fade-up-right">
             <form action="submit" class="flex flex-col w-full">
 
             <group>
@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="tutor-img z-10  mt-2 mr-16  md:ml-8 ">
+        <div class="tutor-img z-10  mt-2 mr-16  md:ml-8 " data-aos="fade-up-right">
 
           <img  src="/imgs/tutoring.svg" alt="" class="w-full md:3/4 ">
 

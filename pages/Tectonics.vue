@@ -8,57 +8,57 @@
       methods: {
             answer(){
                 const answerEl = document.getElementById('answer')
-    
+
                 answerEl.innerText = "That's correct!"
-    
+
                 answerEl.classList.remove('red')
                 answerEl.classList.add('green')
-    
+
             },
-    
+
             wrongAnswer() {
                 const answerEl = document.getElementById('answer')
-    
+
                 answerEl.classList.remove('green')
                 answerEl.classList.add('red')
-    
+
                 answerEl.innerText = "Sorry, keep on studying!"
-                
+
                 //answerEl.classList.add('red')
             },
             answer2(){
                 const answerEl = document.getElementById('answer2')
-    
+
                 answerEl.innerText = "That's correct!"
-    
+
                 answerEl.classList.remove('red')
                 answerEl.classList.add('green')
-    
+
             },
-    
+
             wrongAnswer2() {
                 const answerEl = document.getElementById('answer2')
-    
+
                 answerEl.classList.remove('green')
                 answerEl.classList.add('red')
-    
+
                 answerEl.innerText = "Sorry, keep on studying!"
-                
+
                 //answerEl.classList.add('red')
             }
         }
     }
-    
-    
-    
+
+
+
     </script>
-    
-    
+
+
     <template>
-    
-    
+
+
         <div class="w-full flex flex-col text-left  ">
-    
+
             <div class="tectonic-hero bg-fixed pb-52">
                 <div class="w-1/2 ml-16 mt-32 text-white">
                     <h1 class="text-7xl text-shadow-lg">Plate Tectonics</h1>
@@ -67,7 +67,7 @@
                 </div>
 
 
-    
+
             </div>
 
           <div class="grid grid-cols-4 isolate bg-fixed top-52">
@@ -86,85 +86,85 @@
 
 
             <div id="summary" class="tectonic-summary w-3/4 m-auto mt-16 indent-2">
-    
-    
-    
+
+
+
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Topic Summary</strong></div>
-    
+
                 <audio src="/"></audio>
-    
-    <p>Alfred Wegener proposed that continents had once been joined together to form a single huge supercontinent and had subsequently drifted apart. This idea is the continental drift hypothesis. 
- Wegener drew from several  different sources of data to support his hypotheses: the correlation of coastlines; the distribution of late paleozic glaciers; the distribution of late paleozoic climatic belts; the disruption of fossil species; and correlation of distinctive rock assemblages now on opposite sides of the ocean. 
+
+    <p>Alfred Wegener proposed that continents had once been joined together to form a single huge supercontinent and had subsequently drifted apart. This idea is the continental drift hypothesis.
+ Wegener drew from several  different sources of data to support his hypotheses: the correlation of coastlines; the distribution of late paleozic glaciers; the distribution of late paleozoic climatic belts; the disruption of fossil species; and correlation of distinctive rock assemblages now on opposite sides of the ocean.
 </p>
-    <p>Rocks retain a record of the Earth’s magnetic field that existed at the time the rocks formed/ this record is called paleomagnetism. Nu measuring paleomagnetism in successively older rocks, geologist discovered apparent polar-wander paths. 
+    <p>Rocks retain a record of the Earth’s magnetic field that existed at the time the rocks formed/ this record is called paleomagnetism. Nu measuring paleomagnetism in successively older rocks, geologist discovered apparent polar-wander paths.
 </p>
     <p>Apparent polar-wander paths are different for different continents. Continents move with respect to one another, while the earth's magnetic poles remain roughly fixed. </p>
-    <p>Around 1960, harry hess proposed the hypotheses of se-floor spreading. According to this hypotheses, new sea floor forms at mid-ocean ridges, above a band of upwelling mantle, then spreads symmetrically away from the ridge axis. Eventually, the ocean floor sinks back in the mantle at deep-ocean trenches. 
+    <p>Around 1960, harry hess proposed the hypotheses of se-floor spreading. According to this hypotheses, new sea floor forms at mid-ocean ridges, above a band of upwelling mantle, then spreads symmetrically away from the ridge axis. Eventually, the ocean floor sinks back in the mantle at deep-ocean trenches.
 </p>
-    <p>Magnetometer surveys of the sea floor revealed marine magnetic anomalies. Positive anomalies, where the magnetic field strength is greater than expected, and negative anomalies, where the magnetic field strength is less than expected, are arranged in alternating stripes. 
+    <p>Magnetometer surveys of the sea floor revealed marine magnetic anomalies. Positive anomalies, where the magnetic field strength is greater than expected, and negative anomalies, where the magnetic field strength is less than expected, are arranged in alternating stripes.
 </p>
-    <p>Geologist  documented that the earths’ antigenic field reverses polarity every now and then. The record of reversals, dated  by isotopic techniques, is called the magnetic-reversal chronology. 
+    <p>Geologist  documented that the earths’ antigenic field reverses polarity every now and then. The record of reversals, dated  by isotopic techniques, is called the magnetic-reversal chronology.
  A proof of sea-floor spreading came form the association of marine magnetic anomalies  with the reversal chronology and from drilling studies proving hat the sea floor gets progressively older away from a mid-ocean ridge.
 </p>
-    <p>The lithosphere, the rigid outer layer of earth, is broken  into discrete plates that move relative to each other. Plates consist of the crust and the uppermost mantle. 
-Lithosphere plates effectively float on the underlying soft asthenoshpere. Continental drift and sea-floor spreading are manifestation of plate movement. 
+    <p>The lithosphere, the rigid outer layer of earth, is broken  into discrete plates that move relative to each other. Plates consist of the crust and the uppermost mantle.
+Lithosphere plates effectively float on the underlying soft asthenoshpere. Continental drift and sea-floor spreading are manifestation of plate movement.
  Most earthquakes and volcanoes occur along plate boundaries; the interiors of plates remain relatively rigid and intact. </p>
 
  <img src="public/imgs/chapter2/FIG02.21b_ESSGEO4_CH02.jpg" alt="">
-    <p>There are three types of plate boundaries – divergent, convergent, and transform-- distinguished from one another by the movement the plate on one side of the boundary makes relative to the plate on the other side. 
- Divergent boundaries are marked y mid0ocean ridges. At divergent boundaries, sea-floor spreading produces new oceanic lithosphere. 
+    <p>There are three types of plate boundaries – divergent, convergent, and transform-- distinguished from one another by the movement the plate on one side of the boundary makes relative to the plate on the other side.
+ Divergent boundaries are marked y mid0ocean ridges. At divergent boundaries, sea-floor spreading produces new oceanic lithosphere.
 </p>
     <p>Convergent boundaries are marked by deep-ocean trenches and volcanic arcs, at convergent boundaries, oceanic lithosphere of the down going plate subducts beneath an overriding plate.
- Transform boundaries are marked by large faults at which one plate slides sideways past another. No new plate forms and no old plate is consumed at a transform boundary. 
- Triple junctions are points where three plate boundaries intersect. 
+ Transform boundaries are marked by large faults at which one plate slides sideways past another. No new plate forms and no old plate is consumed at a transform boundary.
+ Triple junctions are points where three plate boundaries intersect.
 </p>
     <p>Hot spots are places where volcanism occurs at an isolated volcano. Asa plate move over the hot spot, the volcano moves of f and dies, and a new volcano forms  over the hot spot. Hot spots may be caused by mantle plumes.
- A large continent can split into two smaller ones through the process of righting. During rifting, continental lithosphere stretches and thins. If it finally breaks apart, a new mid-ocean ridge forms, and sea-floor spreading begins. 
+ A large continent can split into two smaller ones through the process of righting. During rifting, continental lithosphere stretches and thins. If it finally breaks apart, a new mid-ocean ridge forms, and sea-floor spreading begins.
 </p>
-<p>Convergent plate boundaries cease to exist when a buoyant piece of crust a continent or an island arc moves into the subduction zone. When tis happens, collision occurs. 
+<p>Convergent plate boundaries cease to exist when a buoyant piece of crust a continent or an island arc moves into the subduction zone. When tis happens, collision occurs.
  Ridge-push force and slab -pull force contributor to driving plate motions
  Plates move at rates of about 1 to 15cm pre year. Modern satellite measurements can detect
  these motions.
 </p>
 
-    
-                
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
             </div>
-    
-    
+
+
             <div class="tectonic-banner1 w-full bg-fixed flex flex-col text-black">
-                   
-                    
-    
+
+
+
                     <div class="question-box  w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center ">
                         <strong class="text-4xl mt-8 ">Knowledge Check</strong>
-    
+
                         <div class="w-full flex flex-col  text-center  mb-16 ">
                             <p class="mt-2 text-lg ml-8">What gas is the atmosphere primarily composed of?</p>
                             <p id="answer2" class="text-xl"></p>
                             <div class=" w-1/2 flex flex-row justify-center items-center m-auto">
                             <button class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4" @click="answer2">Nitrogen</button> <button class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white" @click="wrongAnswer2">Oxygen</button></div>
                         </div>
-                    
-                    
+
+
                     </div>
-                
-                
-                
-            
-            
-            
+
+
+
+
+
+
             </div>
-    
-    
-    
+
+
+
             <div id="key_points" class="tectonic_points w-3/4 m-auto mt-16">
-    
+
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Key Points</strong></div>
 
 <p>- continental drift. The fit of coastal outlines and the distribution of rocks, fossils and ancient climatic belts al l strongly suggest that the continent were once aligned to form a supercontinent named Pangaea. His idea had few supporters during his lifetime in part becasue he could not provide a workable mechanism through which continents could move with respect to one another.
@@ -185,7 +185,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 </p>
 <p>- volcanism is associated with both convergent (volcanic arcs) and divergent (mid-ocean ridges) boundaries but not transform boundaries.
 </p>
-<p>- only oceanic lithosphere is dense enough to be subjected  at convergent boundaries. When continental lithosphere is pushed (by a ridge) and pulled (by leading edge of subducting oceanic lithosphere) into another continent, a mountainous collision zone is formed , and the two plates involved become sutured together. Conversely, a single large plate can come rifted apart when its lithosphere is stretched, thinned, and broken apart by a developing ridge. 
+<p>- only oceanic lithosphere is dense enough to be subjected  at convergent boundaries. When continental lithosphere is pushed (by a ridge) and pulled (by leading edge of subducting oceanic lithosphere) into another continent, a mountainous collision zone is formed , and the two plates involved become sutured together. Conversely, a single large plate can come rifted apart when its lithosphere is stretched, thinned, and broken apart by a developing ridge.
 </p>
 
 
@@ -195,35 +195,35 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 
 
 
-    
-    
+
+
             </div>
-    
+
             <div class="tectonic-banner2 w-full bg-fixed flex flex-col text-white">
-            
-            
+
+
                 <div class="question-box  w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center ">
                         <strong class="text-4xl mt-8 ">Knowledge Check</strong>
-    
+
                         <div class="w-full flex flex-col text-center  mb-16 ">
                             <p class="mt-2 text-xl">Which is more dense?</p>
                           <p id="answer" class="text-xl"></p>
                             <div class=" w-1/2 flex flex-row justify-center items-center m-auto">
                             <button class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4" @click="answer">Oceanic Crust</button> <button class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white" @click="wrongAnswer">Continental Crust</button></div>
                         </div>
-                    
-                    
+
+
                     </div>
-            
-            
+
+
             </div>
-    
-    
+
+
             <div id="questions_answers" class="tectonic_questions w-3/4 m-auto mt-16">
-    
+
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Questions & Answers</strong></div>
-    
-                
+
+
     <p><span>Q: </span> what was weneger’s continental drift hypotheses? What was his evidence? Why doesnt  other geologist all agree?
 </p>
     <p><span>A: </span>Wegener stated that the continents had once been contiguous, forming a supercontintne which he termed Pangaea which later broke apart to form the modern continents and the n drifted to their present configuration. Wegener’s evidence included the fit of continents coastlines and the distributions  of late Paleozoic fossils, rocks, and climatic belts, all of which were explained by fixed continents. Most geologist did not accept the continental drift hypotheses primarily because wegner had no working mechanism to explain what would cause continents to move.
@@ -235,7 +235,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
     <p><span>A: </span>Sea-floor spreading is the idea the new oceanic basalt is produced at mid-ocean ridges and spread laterally to either side. It is in part the push of oceanic basalt that causes the continents to drift over the surface of the earth.
 </p>
     <p><span>Q: </span>Describe the pattern of marine magnetic anomalies  across a mid-ocean ridge. How is this pattern explained?</p>
-    <p><span>A: </span>Over the ridge crest, earth’s magnetic field is anomalously strong a positive anomaly. This elongate belt of positive anomaly is flanked on either side by belts of anomalously weak magnetic field strength negative anomaly. The alternating sequence of positive and negative anomalies continues in either direction outward from the ridge, forming a pattern that possesses mirror0image symmetry about the ridge axis. The explanation of the pattern is that magnetic fields of crystals formed in the most recent past have remnant magnetism in concert with today’s global magnetic field and are said to hav normal polarity. Extra field strength derives from the alignment of all these mini magnets reinforce the modern dipole. The same is true for all positive anomalies, repressing crystallization and cooling that took place during the times when earth's magnetic polarity was the same as it is today.  Negative anomalies are derived from bodies of rock that crystallized and cooled during times when earths magnetic field had a polarity opposite to that of today. The magnetic fields of these rocks destructively interfere with the modern dipole, weakening the observe magnetic strength. 
+    <p><span>A: </span>Over the ridge crest, earth’s magnetic field is anomalously strong a positive anomaly. This elongate belt of positive anomaly is flanked on either side by belts of anomalously weak magnetic field strength negative anomaly. The alternating sequence of positive and negative anomalies continues in either direction outward from the ridge, forming a pattern that possesses mirror0image symmetry about the ridge axis. The explanation of the pattern is that magnetic fields of crystals formed in the most recent past have remnant magnetism in concert with today’s global magnetic field and are said to hav normal polarity. Extra field strength derives from the alignment of all these mini magnets reinforce the modern dipole. The same is true for all positive anomalies, repressing crystallization and cooling that took place during the times when earth's magnetic polarity was the same as it is today.  Negative anomalies are derived from bodies of rock that crystallized and cooled during times when earths magnetic field had a polarity opposite to that of today. The magnetic fields of these rocks destructively interfere with the modern dipole, weakening the observe magnetic strength.
 
 </p>
     <p><span>Q: </span>how did drilling into the sea floor contribute further proof of sea-floor spreading? How did the seafloor-spreading hypothesis explain variations in ocean floor heat flow?
@@ -244,7 +244,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 </p>
     <p><span>Q: </span>what are the characteristics of the lithosphere plate? Can a single plate include both continental and oceanic lithosphere?
 </p>
-    <p><span>A: </span>The lithosphere is the rocky portion of the earth, relatively cool and rigid as compared to underlying mantle material the hotter, weaker stenographer. The lithosphere is composed of the crust and the uppermost portion to the mantle. A plate may be topped by a combination of continental and oceanic crust. 
+    <p><span>A: </span>The lithosphere is the rocky portion of the earth, relatively cool and rigid as compared to underlying mantle material the hotter, weaker stenographer. The lithosphere is composed of the crust and the uppermost portion to the mantle. A plate may be topped by a combination of continental and oceanic crust.
 </p>
     <p><span>Q: </span>how does oceanic lithosphere differ from continental lithosphere in thickness. Composition, and density?
 </p>
@@ -274,11 +274,11 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
     <p><span>A: </span>A large column of very hot rock from within the mantle rises at the tho spot and produces abundant magma, yielding copious volcanism to form the hot spot. Hot spots are relatively stable points, where as the plates that overlie them, and which bear the associated volcanoes, are moving. Over periods of millions of years, as a plate slides over the hot spot, extinct volcanoes are ferried in the direction of plate  motion, while new volcanoes are formed at the hot spot. Only the volcano directly over a hot spot will be active; all those dragged off a host spot lose their source of magma.</p>
     <p><span>Q: </span>Describe the characteristics of a continental rift, and give examples of where this process is occurring today.</p>
     <p><span>A: </span> Continental rifts appear as elongate valleys bounded on either side by faults. Volcanism occurs along the rift as asthenosphere rises to accommodate the thinning lithosphere and melts. Rifts can be found in east Africa and in the great basin of the western united states</p>
-   
-    
-    
-    
-    
+
+
+
+
+
             </div>
 
 
@@ -286,21 +286,21 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 
 
               <Quiz :quiz="quiz"/>
-    
-    
+
+
     <ToTop/>
 
               </div>
             </div>
-    
 
-    
-    
+
+
+
         </div>
-    
-    
+
+
     </template>
-    
+
     <style scoped>
     .tectonic-hero {
         background-image: url('/pexels-pixabay-87651.jpg');
@@ -308,46 +308,46 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
         background-repeat: no-repeat;
         background-size: cover;
     }
-    
+
     p {
         padding-bottom: 2rem;
-        
+
     }
-    
+
     strong {
         margin-bottom: 3rem;
     }
-    
+
     span {
        font-weight: bold;
     }
-    
+
     .tectonic-banner1 {
-        background-image: url('/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
-    
+
     .tectonic-banner2 {
-        background-image: url('/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
-    
+
     .question-box {
         min-width: 500px;
     }
-    
+
     .green {
         color: green;
     }
-    
+
     .red {
         color: red;
     }
-    
-    
-    
+
+
+
     </style>

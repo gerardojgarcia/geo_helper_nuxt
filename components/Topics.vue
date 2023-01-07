@@ -18,7 +18,7 @@ export default {
                 leftEl.scrollLeft -= 600
 
        },
-       
+
        topicRight(){
         const rightEl = document.getElementById('topics-box')
 
@@ -32,48 +32,50 @@ export default {
 <template>
 
 
-    <div id="topics" class="topics-container w-full flex flex-col align-center justify-center md:px-16 pb-28">
-    
+    <div id="topics" class="topics-container w-full flex flex-col align-center justify-center md:px-16 pb-28" >
+
         <!--Topics <Header-->
 
 
-    <div class="mt-16">
+    <div class="mt-16" data-aos="fade-up-right">
         <p class="text-yellow-600 text-left ml-8">Earth Science Topics</p>
 
 
         <h2 class="text-5xl text-left ml-8 text-shadow-lg">Explore Topics</h2>
-     
+
     </div>
 
 
     <!-- Topics Card <Box-->
-<div class="flex flex-row w-full align-center justify-center items-center" >
-    
+<div class="flex flex-row w-full align-center justify-center items-center" data-aos="fade-up-left">
+
             <div>
                 <button  class="bg-white border-0 p-6" @click="topicLeft"><font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" /></button>
         </div>
-    
+
+
         <div class="topic-box w-5/6 flex flex-row w-full mx-2 my-16 py-8 overflow-x-auto self-center scroll-smooth" id="topics-box" >
-    
-    
-    
+
+
+<!--Topic Card-->
+
        <div class="flex flex-row " v-for="topic in topics" :key="topic.id">
-    
-           <TopicsCard  :topic="topic"/>
-    
+
+           <TopicsCard  :topic="topic" data-aos="fade-up-right" />
+
        </div>
-    
-    
-    
+
+
+
         </div>
-    
+
         <div>
             <button class="bg-white border-0 p-6"  @click="topicRight"><font-awesome-icon icon="fas fa-chevron-right" class="text-black text-2xl" /></button>
         </div>
-    
-    
-    
-    
+
+
+
+
         </div>
 </div>
 
