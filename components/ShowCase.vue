@@ -33,7 +33,7 @@ export default {
   
   
   
-    <img src="/imgs/showcase-img.svg" alt="" class=" w-full md:w-3/4 place-center self-center">
+    <img src="/imgs/showcase-img.svg" alt="Young person studying at a computer" class=" w-full md:w-3/4 place-center self-center">
   
   
   </div>

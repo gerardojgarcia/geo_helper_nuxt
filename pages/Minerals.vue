@@ -140,18 +140,28 @@ import JumpToSection from "../components/JumpToSection.vue";
     
         <div class="w-full flex flex-col text-left  ">
     
-            <div class="mineral-hero bg-fixed pb-52">
+            <div class="mineral-hero bg-fixed pb-52 flex-col">
                 <div class="w-1/2 ml-16 mt-32 text-white">
                     <h1 class="text-7xl text-shadow-lg">Minerals</h1>
                     <p class="w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about minerals.</p>
                 </div>
-              <div>
-                <JumpToSection/>
-              </div>
-    
+
+
     
             </div>
-            <div id="summary" class="earth-summary w-3/4 m-auto mt-16 indent-2">
+
+          <div class="grid grid-cols-4 isolate bg-fixed top-52">
+
+          <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
+            <AppSideNav/>
+
+          </div>
+
+
+            <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+
+
+            <div id="summary" class="mineral-summary w-3/4 m-auto md:ml-72 mt-16 indent-2">
     
     
     
@@ -170,7 +180,7 @@ import JumpToSection from "../components/JumpToSection.vue";
  the most convenient way for classifying minerals is to group them according to their carbonates, and native metals. 
 </p>
 
-<img src="/chapter2/FIG02.21d_ESSGEO4_CH02.jpg" alt="">
+<img src="public/imgs/chapter2/FIG02.21d_ESSGEO4_CH02.jpg" alt="">
 
     <p>silicate minerals are the most common minerals on Earth, the silicon-oxygen building block of silicate minerals. 
 </p>
@@ -343,10 +353,11 @@ import JumpToSection from "../components/JumpToSection.vue";
     
     
     <ToTop/>
-    <ToBottom/>
+
     
     
-    
+        </div>
+          </div>
         </div>
     
     

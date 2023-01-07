@@ -261,7 +261,7 @@
     
     <style scoped>
     .volcano-hero {
-        background-image: url('/pexels-pixabay-87651.jpg');
+        background-image: url('/imgs/pexels-pixabay-87651.jpg');
         height: 75vh;
     }
     
@@ -279,14 +279,14 @@
     }
     
     .volcano-banner1 {
-        background-image: url('/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
     
     .volcano-banner2 {
-        background-image: url('/public/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/public/imgs/pexels-arthur-brognoli-2342505.jpg');
         min-height: 45vh;
         background-position: center;
         background-size: cover

@@ -65,13 +65,26 @@
                     <p class="w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about tectonics.</p>
 
                 </div>
-              <div>
 
-                <JumpToSection/>
-              </div>
 
     
             </div>
+
+          <div class="grid grid-cols-4 isolate bg-fixed top-52">
+
+            <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
+              <AppSideNav/>
+
+            </div>
+
+
+
+
+            <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+
+
+
+
             <div id="summary" class="tectonic-summary w-3/4 m-auto mt-16 indent-2">
     
     
@@ -97,7 +110,7 @@
 Lithosphere plates effectively float on the underlying soft asthenoshpere. Continental drift and sea-floor spreading are manifestation of plate movement. 
  Most earthquakes and volcanoes occur along plate boundaries; the interiors of plates remain relatively rigid and intact. </p>
 
- <img src="/chapter2/FIG02.21b_ESSGEO4_CH02.jpg" alt="">
+ <img src="public/imgs/chapter2/FIG02.21b_ESSGEO4_CH02.jpg" alt="">
     <p>There are three types of plate boundaries – divergent, convergent, and transform-- distinguished from one another by the movement the plate on one side of the boundary makes relative to the plate on the other side. 
  Divergent boundaries are marked y mid0ocean ridges. At divergent boundaries, sea-floor spreading produces new oceanic lithosphere. 
 </p>
@@ -165,7 +178,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 <p>- together, the evidence for sea-floor spreading and continental drift have been combined with geophysical observations to form the basis of our modern understanding of plate tectonics—the unifying theory of geology that explains the distribution of earthquakes, volcanism, and mountain building, and the links among these phenomena.
 </p>
 
-<img src="/chapter2/FIG02.21e_ESSGEO4_CH02.jpg" alt="">
+<img src="public/imgs/chapter2/FIG02.21e_ESSGEO4_CH02.jpg" alt="">
 <p>- the plates of plate tectonics are discrete slabs of lithosphere (curst and rigid portion of the mantle) that move  with respect to each other. They glide over a ductile layer of the mantel termed the asthenosphere. Boundaries between plates are convergent (where plates move towards each other) , divergent (where plates are pushed apart at mid0ocean ridge) or transform (where plates slide past each other). Relative plate motions are on the order of a few centimeters a year (a common analogy is that these rates approximate the rate of human fingernail growth.)
 </p>
 <p>- plate motions at all the tree boundary types triggers earthquakes. Plate boundareis are delineated by belts of high historical earthquake frequency.
@@ -267,15 +280,20 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
     
     
             </div>
-    
-    
-    
+
+
+              <FlashCards :definition="definition"/>
+
+
+              <Quiz :quiz="quiz"/>
     
     
     <ToTop/>
-          <ToBottom/>
+
+              </div>
+            </div>
     
-    
+
     
     
         </div>

@@ -20,7 +20,7 @@ export default {
     created(){
         this.quiz = [
             {
-                id: 1, 
+                id: 1,
                 question: "Why do stars and constellations change location over the course of one night?",
                 answerId: 'quiz-answer',
                 answer1: "The stars themselves are moving",
@@ -30,7 +30,7 @@ export default {
 
             },
             {
-                id: 2, 
+                id: 2,
                 question: "According to the Big Bang Theory, our Universe is _____",
                 answerId: 'quiz-answer2',
                 answer1: "Contracting",
@@ -40,7 +40,7 @@ export default {
 
             },
             {
-                id: 3, 
+                id: 3,
                 question: "The estimated age of the Earth is _____",
                 answerId: 'quiz-answer3',
                 answer1: "5 million years",
@@ -51,7 +51,7 @@ export default {
 
             },
             {
-                id: 4, 
+                id: 4,
                 question: "Why do stars and constellations change location over the course of one night?",
                 answerId: 'quiz-answer4',
                 answer1: "The stars themselves are movign",
@@ -61,7 +61,7 @@ export default {
 
             },
             {
-                id: 5, 
+                id: 5,
                 question: "Why do stars and constellations change location over the course of one night?",
                 answerId: 'quiz-answer5',
                 answer1: "The stars themselves are movign",
@@ -71,7 +71,7 @@ export default {
 
             },
             {
-                id: 6, 
+                id: 6,
                 question: "Why do stars and constellations change location over the course of one night?",
                 answerId: 'quiz-answer6',
                 answer1: "The stars themselves are moving",
@@ -81,7 +81,7 @@ export default {
 
             },
             {
-                id: 7, 
+                id: 7,
                 question: "Why do stars and constellations change location over the course of one night?",
                 answerId: 'quiz-answer7',
                 answer1: "The stars themselves are moving",
@@ -176,18 +176,18 @@ export default {
 
 
 
+login(){
+  this.$gtag.event('login', {method: 'Google'})
+}
 
-        track() {
-          this.$gtag.pageview(this.$route)
-        }
 
 
 
       },
 
 
-    components: 
-    
+    components:
+
     {
       JumpToSection,
     FlashCards,
@@ -197,7 +197,7 @@ export default {
     ToBottom
 },
 
-    
+
 }
 
 
@@ -235,7 +235,7 @@ export default {
         <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
 
 
-        <div id="summary" class="earth-summary  m-auto mt-16 indent-2">
+          <div id="summary" class="earth-summary  m-auto mt-16 indent-2">
 
 
 
@@ -306,9 +306,9 @@ export default {
         </div>
 
 
-        <div class="earth-banner1 w-full bg-fixed flex flex-col text-black">
-               
-                
+          <div class="earth-banner1 w-full bg-fixed flex flex-col text-black">
+
+
 
                 <div class="question-box  m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center flex-wrap">
                     <strong class="text-4xl mt-8 ">Knowledge Check</strong>
@@ -319,20 +319,19 @@ export default {
                         <div class=" w-1/2 flex flex-row justify-center items-center m-auto">
                         <button class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4" @click="answer2">Nitrogen</button> <button class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white" @click="wrongAnswer2">Oxygen</button></div>
                     </div>
-                
-                
+
+
                 </div>
-            
-            
-            
-        
-        
-        
-        </div>
 
 
 
-        <div id="key_points" class="earth_points w-3/4 m-auto mt-16">
+
+
+          </div>
+
+
+
+          <div id="key_points" class="earth_points w-3/4 m-auto mt-16">
 
             <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Key Points</strong></div>
 
@@ -386,9 +385,9 @@ export default {
 
         </div>
 
-        <div class="earth-banner2 w-full bg-fixed flex flex-col text-white">
-        
-        
+          <div class="earth-banner2 w-full bg-fixed flex flex-col text-white">
+
+
             <div class="question-box  m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center ">
                     <strong class="text-4xl mt-8 ">Knowledge Check</strong>
 
@@ -398,15 +397,15 @@ export default {
                         <div class=" w-1/2 flex flex-row justify-center items-center m-auto">
                         <button class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4" @click="answer">Oceanic Crust</button> <button class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white" @click="wrongAnswer">Continental Crust</button></div>
                     </div>
-                
-                
+
+
                 </div>
-        
-        
+
+
         </div>
 
 
-        <div id="questions_answers" class="earth_questions w-3/4 m-auto mt-16">
+          <div id="questions_answers" class="earth_questions w-3/4 m-auto mt-16">
 
             <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Questions & Answers</strong></div>
 
@@ -513,7 +512,7 @@ export default {
                 Circulation of iron atoms in the liquid outer core generates the magnetic filed of the Earth.
 
             </p>
-            <img  src="/chapter1/FIG01.15ab_ESSGEO4_CH01.jpg" alt="Image of the layers of the earth" width="500px" >
+            <img  src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.jpg" alt="Image of the layers of the earth" width="500px" >
             <p><span>Q: </span>What is the difference between the lithosphere and the asthenosphere? Which layer is
                 softer and flows more easily? At what depth does the lithosphere-asthenosphere boundary occur? Is this
                 above or below the Moho? Is the asthenosphere entirely liquid?
@@ -568,18 +567,18 @@ export default {
 
         </div>
 
-        <FlashCards :definition="definition"/>
+          <FlashCards :definition="definition"/>
 
 
-        <Quiz :quiz="quiz"/>
+          <Quiz :quiz="quiz"/>
 
 
 
 
 
-        <ToTop />
+            <ToTop />
 
-    </div>
+        </div>
       </div>
   </div>
 
@@ -596,7 +595,7 @@ export default {
 
 p {
     padding-bottom: 2rem;
-    
+
 }
 
 strong {
@@ -628,7 +627,7 @@ span {
 
 @media (max-width: 800px){
     .question-box {
-        max-width:350px; 
+        max-width:350px;
     }
 }
 

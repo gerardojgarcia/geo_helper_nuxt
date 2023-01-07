@@ -65,9 +65,24 @@
     
     
             </div>
-            <div class="earth-summary w-3/4 m-auto mt-16 indent-2">
+          <div class="grid grid-cols-4 isolate bg-fixed top-52">
+
+            <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
+              <AppSideNav/>
+
+            </div>
+
+
+
+
+            <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+
+
+
+
+            <div class="sedimentary-summary w-3/4 m-auto mt-16 indent-2">
     
-    
+
     
                 <div class="mb-16"><strong class="text-5xl text-shadow-sm ">Topic Summary</strong></div>
     
@@ -188,7 +203,9 @@
     
     
     
-    
+    <ToTop/>
+              </div>
+            </div>
     
     
     
