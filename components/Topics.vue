@@ -47,7 +47,7 @@ export default {
 
 
     <!-- Topics Card <Box-->
-<div class="flex flex-row w-full align-center justify-center items-center" data-aos="fade-up-left">
+<div class="flex flex-row w-full align-center justify-center items-center" data-aos="fade-up-left" data-aos-duration="500">
 
             <div>
                 <button  class="bg-white border-0 p-6" @click="topicLeft"><font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" /></button>
@@ -61,7 +61,7 @@ export default {
 
        <div class="flex flex-row " v-for="topic in topics" :key="topic.id">
 
-           <TopicsCard  :topic="topic" data-aos="fade-up-right" />
+           <TopicsCard  :topic="topic" data-aos="fade-up" data-aos-duration="2500"/>
 
        </div>
 

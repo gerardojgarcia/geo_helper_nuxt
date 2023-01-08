@@ -11,9 +11,9 @@ export default {
 
       }
   },
-    
 
-    
+
+
     methods: {
 
 
@@ -28,9 +28,11 @@ export default {
 correct() {
           const answerEl = document.getElementById('quiz-answer');
           answerEl.innerText = ""
-          answerEl.innerText = "That's Correct!";
+        //  answerEl.innerText = "That's Correct!";
           answerEl.classList.remove("red");
           answerEl.classList.add("green");
+
+          alert("That's Correct!")
 
         },
         wrong(){
@@ -38,7 +40,9 @@ correct() {
             console.log('This uis false')
             answerEl.classList.remove("green");
             answerEl.classList.add("red");
-            answerEl.innerText = "Sorry, keep on studying!";
+            //answerEl.innerText = "Sorry, keep on studying!";
+
+            alert("Sorry, try again.")
 
           }
 
@@ -54,12 +58,12 @@ correct() {
 
     <div class="m-auto w-4/5">
         <div >
-        
+
             <strong class="text-6xl">Quiz</strong>
-        
-        
-        
-        
+
+
+
+
         </div>
         <div class="quiz w-full m-2 ">
             <div class="question flex flex-col rounded-xl shadow-lg p-2 mb-8" v-for="quiz in quiz" :key="quiz.id">
@@ -70,7 +74,7 @@ correct() {
               <button @click="wrong()" class="question-wrong">{{quiz.answer1}}</button><button @click=" correct()" class="question-right">{{quiz.answer2}}</button> <button @click="wrong()" class="question-wrong">{{quiz.answer3}}</button><button @click="wrong()" class="question-wrong">{{quiz.answer4}}</button>
             </div>
 
-            
+
             </div>
         </div>
     </div>

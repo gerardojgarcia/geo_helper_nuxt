@@ -6,7 +6,7 @@ export default {
         toTop(){
             window.scrollTo(0, 0)
 
-            
+
 
 
         }
@@ -18,8 +18,11 @@ export default {
 <template>
 
 
-<div @click="toTop" id="back-button" class="back-button cursor-pointer hidden w-28 h-28 bg-yellow-400 rounded-3xl lg:flex items-center justify-center mr-4  self-end shadow-lg">
-    <div class="  rounded-xl self-center text-6xl  "><font-awesome-icon icon="fas fa-chevron-up"/></div>
+<div @click="toTop" id="back-button" class="back-button cursor-pointer z-10 w-28 h-28 bg-yellow-400 rounded-3xl md:flex items-center justify-center mr-4  self-end shadow-lg">
+    <div class="  rounded-xl self-center text-6xl  ">
+      <font-awesome-icon icon="fas fa-chevron-up" class="text-black"/>
+
+    </div>
 </div>
 
 
@@ -32,7 +35,7 @@ export default {
     .back-button {
         position: fixed;
         margin-top: 60vh;
-         
+
     }
 
     @media (max-width: 800px){
