@@ -27,56 +27,57 @@ export default {
                 <div class="flex-start flex flex-row mb-8 rounded shadow w-96 p-4 hover:shadow-lg cursor-pointer">
                     <div class="icon-div w-10 h-10 bg-green-200  flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
                     <div class="flex-col ml-4">
-                        <strong class="text-lg text-black">Trusted by Thousands</strong>
+                        <strong class="text-lg text-black">Geologic Mapping Resources</strong>
                         <p class="text-gray-500 text-sm">There are many variations of passages</p>
                     </div>
                 </div>
                 <div class="flex-start flex flex-row mb-8 rounded shadow w-96 p-4 hover:shadow-lg cursor-pointer">
                     <div class="icon-div w-10 h-10 bg-green-200  flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
                     <div class="flex-col ml-4">
-                        <strong class="text-lg text-black">Trusted by Thousands</strong>
+                        <strong class="text-lg text-black">Best Geo Locations</strong>
                         <p class="text-gray-500 text-sm">There are many variations of passages</p>
                     </div>
                 </div>
-                
-                
+
+
             </div>
         </div>
         <div class="community-cards max-w-lg flex flex-wrap justify-center ml-2 mt-4 md:mt-24">
 
-            <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
-            
+            <div class="community-card  w-52 h-52 flex text-center shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
+
                 <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><font-awesome-icon icon="fa-solid fa-user" class=" place-center self-center ml-3"></font-awesome-icon></div>
                 <div class="data font-bold py-4 mt-4">Geology of Los Angeles</div>
                 <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
-            
-            
+
+
             </div>
-            <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
-            
+            <div class="community-card w-52 h-52 flex text-center shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
+
             <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><font-awesome-icon icon="fa-solid fa-user" class=" place-center self-center ml-3"></font-awesome-icon></div>
             <div class="data font-bold py-4 mt-4">The San Andreas Fault</div>
-            <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
-        
-        
+            <div class="title text-gray-400 text-sm">A real threat or just an overreaction?</div>
+
+
         </div>
-        <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
-            
+        <div class="community-card w-52 h-52 flex text-center shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
+
             <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
-            <div class="data font-bold py-4 mt-4">San Gabriel Mountains</div>
+            <div class="data font-bold py-4 mt-4">History of the San Gabriel Mountains</div>
             <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
-        
-        
+
+
         </div>
-        <div class="community-card w-52 h-52 flex shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
-            
+        <div class="community-card w-52 h-52 flex text-center shadow-md flex-col items-center mr-4 cursor-pointer hover:shadow-xl">
+
             <div class=" icon-div w-10 h-10 bg-green-200 mt-4 flex"><i class="fa-solid fa-user place-center self-center ml-3"></i></div>
-            <div class="data font-bold py-4 mt-4">Geology of Los Angeles</div>
+            <div class="data font-bold py-4 mt-4">The Faults of Los Angeles</div>
             <div class="title text-gray-400 text-sm">The ground that shakes a metropolis</div>
-        
-        
+
+
         </div>
-            
+
+
 
         </div>
     </div>
