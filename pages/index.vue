@@ -131,14 +131,20 @@ export default {
 
 
     ]
-  }
+  },
+
+
 
 }
 </script>
 
 <template>
   <div>
-
+<VueGtag v-bind="{ event: 'page_view',
+params: {
+  page_path:'/'
+}
+}"/>
     <ShowCase/>
     <Features/>
     <Topics :topics='topics'/>

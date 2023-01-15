@@ -8,6 +8,7 @@ export default {
   <div class=" hidden md:flex flex-col 1/2 p-16  bg-white  ">
     <strong>Topics</strong>
 <ul class="flex flex-col w-full space-y-2 ">
+  <NuxtLink to="/">Home</NuxtLink>
   <NuxtLink to="Earth">Earth</NuxtLink>
   <NuxtLink to="Minerals">Minerals</NuxtLink>
   <NuxtLink to="Igneous">Igneous Rocks</NuxtLink>
