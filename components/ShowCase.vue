@@ -33,7 +33,7 @@ export default {
 
 
 
-    <img src="/imgs/showcase-img.svg" alt="Young person studying at a computer" class=" w-full md:w-3/4 place-center self-center">
+    <img src="/imgs/showcase-img.svg" alt="Young person studying at a computer" class="  md:w-3/4 place-center self-center">
 
 
   </div>
@@ -50,6 +50,12 @@ export default {
 
 h1 {
   text-shadow:   1px 4px 2px rgba(0, 0, 0, 0.164);
+}
+
+
+.showcase-img {
+  width: 65%;
+
 }
 
 </style>

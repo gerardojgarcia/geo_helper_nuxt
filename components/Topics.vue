@@ -50,7 +50,7 @@ export default {
 <div class="flex flex-row w-full align-center justify-center items-center" data-aos="fade-up-left" data-aos-duration="500">
 
             <div>
-                <button  class="bg-white border-0 p-6" @click="topicLeft"><font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" /></button>
+                <button  class="bg-white border-0 p-6" @click="topicLeft" aria-label="Move Items left"><font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" /></button>
         </div>
 
 
@@ -70,7 +70,7 @@ export default {
         </div>
 
         <div>
-            <button class="bg-white border-0 p-6"  @click="topicRight"><font-awesome-icon icon="fas fa-chevron-right" class="text-black text-2xl" /></button>
+            <button class="bg-white border-0 p-6" aria-label="Move Items right" @click="topicRight"><font-awesome-icon icon="fas fa-chevron-right" class="text-black text-2xl" /></button>
         </div>
 
 

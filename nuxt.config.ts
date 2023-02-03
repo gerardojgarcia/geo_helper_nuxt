@@ -4,6 +4,7 @@ import {defineNuxtConfig} from "nuxt/config";
 export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',
+		['@nuxtjs/robots', { configPath: "~/config/robots.config" }]
 		
 
 
@@ -29,6 +30,9 @@ export default defineNuxtConfig({
 			{ name: 'description', content: 'Free resources to help you master your Earth Science Courses' }
 			 ],
 		}
+	},
+	nitro: {
+		compressPublicAssets: true,
 	}
 
 

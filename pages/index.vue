@@ -96,7 +96,7 @@ export default {
         id: 7,
         topic: 'Metamorphic Rocks',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img5.webp',
+        image: '/imgs/img2.webp',
         link: "Metamorphic"
 
       },
@@ -140,11 +140,7 @@ export default {
 
 <template>
   <div>
-<VueGtag v-bind="{ event: 'page_view',
-params: {
-  page_path:'/'
-}
-}"/>
+
     <ShowCase/>
     <Features/>
     <Topics :topics='topics'/>
