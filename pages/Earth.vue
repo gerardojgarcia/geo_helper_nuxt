@@ -278,7 +278,7 @@ export default {
                 The first atoms (hydrogen and helium) of the universe developed within minutes of the big bang. These
                 atoms formed vast gas clouds, called nebulae.
 
-                <img src="/imgs/chapter1/FIG01.04d_ESSGEO4_CH01.jpg" alt="Red Shift">
+                <img src="/imgs/chapter1/FIG01.04d_ESSGEO4_CH01.webp" alt="Red Shift">
             </p>
             <p>Gravity caused clumps of gas in the nebulae that coalesce into flattened disks with bulbous centers. The
                 protostars at the center of these disks eventually became so dense and hot that fusion reactions began
@@ -305,7 +305,7 @@ export default {
                 (beneath the oceans) to 25-70km beneath continents. Oceanic crust is magic in compositions, whereas
                 average upper continental crust is felicity to intermediate. The mantel is composed of ultramafic rock.
                 The core is made of iron alloy.
-                <img src="/imgs/chapter1/FIG01.13b_ESSGEO4_CH01.jpg" alt="Image of the layers of the earth">
+                <img src="/imgs/chapter1/FIG01.13b_ESSGEO4_CH01.webp" alt="Image of the layers of the earth">
 
                 Studies of seismic waves have revealed that the mantle cab be subdivided into an upper mantle including
                 a transition zone and a lower mantle. The core cab be subdivided into the outer core liquid and an inner
@@ -386,7 +386,7 @@ export default {
                 Earth very early in its history.
             </p>
 
-            <img src="/imgs/chapter1/FIG01.17_ESSGEO4_CH01.jpg" alt="Image of the layers of the earth">
+            <img src="/imgs/chapter1/FIG01.17_ESSGEO4_CH01.webp" alt="Image of the layers of the earth">
             <p>- earth is chemically divided into a thin, rocky crust dominated by silicate minerals; a thick mantle
                 composed mostly of iron- and magnesium-rich silicates (subject locally to partial melting); and a thick
                 metallic core made primarily of iron, the outer portion is liquid. YOU should know that seismic waves
@@ -531,7 +531,7 @@ export default {
                 Circulation of iron atoms in the liquid outer core generates the magnetic filed of the Earth.
 
             </p>
-            <img  src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.jpg" alt="Image of the layers of the earth" width="500px" >
+            <img  src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.webp" alt="Image of the layers of the earth" width="500px" >
             <p><span>Q: </span>What is the difference between the lithosphere and the asthenosphere? Which layer is
                 softer and flows more easily? At what depth does the lithosphere-asthenosphere boundary occur? Is this
                 above or below the Moho? Is the asthenosphere entirely liquid?
@@ -606,7 +606,7 @@ export default {
 
 <style scoped>
 .earth-hero {
-    background-image: url('/imgs/pexels-pixabay-87651.jpg');
+    background-image: url('/imgs/pexels-pixabay-87651.webp');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -626,14 +626,14 @@ span {
 }
 
 .earth-banner1 {
-    background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
+    background-image: url('/imgs/pexels-dominika-roseclay-1172842.webp');
     min-height: 45vh;
     background-position: center;
     background-size: cover
 }
 
 .earth-banner2 {
-    background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
+    background-image: url('/imgs/pexels-arthur-brognoli-2342505.webp');
     min-height: 45vh;
     background-position: center;
     background-size: cover

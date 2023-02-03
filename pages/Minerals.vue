@@ -180,7 +180,7 @@ import JumpToSection from "../components/JumpToSection.vue";
  the most convenient way for classifying minerals is to group them according to their carbonates, and native metals. 
 </p>
 
-<img src="public/imgs/chapter2/FIG02.21d_ESSGEO4_CH02.jpg" alt="">
+<img src="public/imgs/chapter2/FIG02.21d_ESSGEO4_CH02.webp" alt="">
 
     <p>silicate minerals are the most common minerals on Earth, the silicon-oxygen building block of silicate minerals. 
 </p>
@@ -365,7 +365,7 @@ import JumpToSection from "../components/JumpToSection.vue";
     
     <style scoped>
     .mineral-hero {
-        background-image: url('/imgs/pexels-pixabay-87651.jpg');
+        background-image: url('/imgs/pexels-pixabay-87651.webp');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -385,14 +385,14 @@ import JumpToSection from "../components/JumpToSection.vue";
     }
     
     .mineral-banner1 {
-        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
     
     .mineral-banner2 {
-        background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/imgs/pexels-arthur-brognoli-2342505.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover

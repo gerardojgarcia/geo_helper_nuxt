@@ -110,7 +110,7 @@
 Lithosphere plates effectively float on the underlying soft asthenoshpere. Continental drift and sea-floor spreading are manifestation of plate movement.
  Most earthquakes and volcanoes occur along plate boundaries; the interiors of plates remain relatively rigid and intact. </p>
 
- <img src="public/imgs/chapter2/FIG02.21b_ESSGEO4_CH02.jpg" alt="">
+ <img src="public/imgs/chapter2/FIG02.21b_ESSGEO4_CH02.webp" alt="">
     <p>There are three types of plate boundaries – divergent, convergent, and transform-- distinguished from one another by the movement the plate on one side of the boundary makes relative to the plate on the other side.
  Divergent boundaries are marked y mid0ocean ridges. At divergent boundaries, sea-floor spreading produces new oceanic lithosphere.
 </p>
@@ -178,7 +178,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 <p>- together, the evidence for sea-floor spreading and continental drift have been combined with geophysical observations to form the basis of our modern understanding of plate tectonics—the unifying theory of geology that explains the distribution of earthquakes, volcanism, and mountain building, and the links among these phenomena.
 </p>
 
-<img src="public/imgs/chapter2/FIG02.21e_ESSGEO4_CH02.jpg" alt="">
+<img src="public/imgs/chapter2/FIG02.21e_ESSGEO4_CH02.webp" alt="">
 <p>- the plates of plate tectonics are discrete slabs of lithosphere (curst and rigid portion of the mantle) that move  with respect to each other. They glide over a ductile layer of the mantel termed the asthenosphere. Boundaries between plates are convergent (where plates move towards each other) , divergent (where plates are pushed apart at mid0ocean ridge) or transform (where plates slide past each other). Relative plate motions are on the order of a few centimeters a year (a common analogy is that these rates approximate the rate of human fingernail growth.)
 </p>
 <p>- plate motions at all the tree boundary types triggers earthquakes. Plate boundareis are delineated by belts of high historical earthquake frequency.
@@ -303,7 +303,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 
     <style scoped>
     .tectonic-hero {
-        background-image: url('/imgs/pexels-pixabay-87651.jpg');
+        background-image: url('/imgs/pexels-pixabay-87651.webp');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -323,14 +323,14 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
     }
 
     .tectonic-banner1 {
-        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
 
     .tectonic-banner2 {
-        background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/imgs/pexels-arthur-brognoli-2342505.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover

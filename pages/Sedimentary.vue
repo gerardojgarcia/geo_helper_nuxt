@@ -1,4 +1,4 @@
-<script>
+ <script>
     export default {
         name: 'Sedimentary',
     
@@ -219,7 +219,7 @@
     
     <style scoped>
     .sedimentary-hero {
-        background-image: url('/imgs/pexels-pixabay-87651.jpg');
+        background-image: url('/imgs/pexels-pixabay-87651.webp');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -239,14 +239,14 @@
     }
     
     .sedimentary-banner1 {
-        background-image: url('/imgs/pexels-dominika-roseclay-1172842.jpg');
+        background-image: url('/imgs/pexels-dominika-roseclay-1172842.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
     
     .sedimentary-banner2 {
-        background-image: url('/imgs/pexels-arthur-brognoli-2342505.jpg');
+        background-image: url('/imgs/pexels-arthur-brognoli-2342505.webp');
         min-height: 45vh;
         background-position: center;
         background-size: cover
