@@ -6,9 +6,7 @@ import NavSearch from './NavSearch.vue';
     export default {
     name: "Nav",
 
-        props:{
-             name: String   
-        },
+       
 
 
 
@@ -34,8 +32,7 @@ import NavSearch from './NavSearch.vue';
             <NuxtLink to="/">Home</NuxtLink>
             <NuxtLink to="TopicPage">Topics</NuxtLink>
 
-            <a href="#">Tutoring</a>
-            <a href="#">FAQ</a>
+            
 
           </div>
 
@@ -45,7 +42,7 @@ import NavSearch from './NavSearch.vue';
 
         </nav>
 
-        <AppButton name="Contact"/>
+        <AppButton name="Contact" link="#footer"/>
       </header>
 
     </div>

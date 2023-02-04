@@ -14,7 +14,7 @@
 <template>
 
 
-    <div class="footer-container w-full  flex flex-col md:flex-row pb-16 justify-center align-center">
+    <div id="footer" class="footer-container w-full  flex flex-col md:flex-row pb-16 justify-center align-center">
         <div class="footer-media flex flex-col md:w-1/2  items-center pt-16 ">
             <img src="/imgs/geohandlogo.png" alt="Logo image for geo hand" class="logo w-32 mb-16">
             <div class="social-media">
