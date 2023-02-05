@@ -19,10 +19,10 @@ import NavSearch from './NavSearch.vue';
 </script>
 
 <template>
-    <div>
+    
       <header class="w-full flex justify-evenly my-8 bg-white items-center align-center z-10">
 
-        <nav class="flex flex-row w-auto">
+        <nav class="flex ">
 
 
 
@@ -45,13 +45,12 @@ import NavSearch from './NavSearch.vue';
         <AppButton name="Contact" link="#footer"/>
       </header>
 
-    </div>
 </template>
 
 
 <style scoped>
     a {
-        margin-right: 25px;
+        margin-right: 1.5rem;
     }
 
 </style>

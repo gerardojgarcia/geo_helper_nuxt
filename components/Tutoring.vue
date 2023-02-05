@@ -15,9 +15,9 @@
 <template>
 
 
-    <div class=" tutor-container w-full flex flex-col md:flex-row md:py-16 pb-4 bg-yellow-400 relative justify-between px-24 " >
+    <div class=" tutor-container w-full flex flex-col md:flex-row md:py-16 pb-4 bg-yellow-400 relative justify-between px-4 md:px-24 " >
 
-        <div class="tutor-info text-left flex flex-col m-16 pt-8">
+        <div class="tutor-info text-left flex flex-col md:m-16 pt-8">
 
         <div class="mt-8 mb-16" data-aos="fade-up">
 
@@ -29,8 +29,8 @@
 
         </div>
 
-        <div class="tutor-form ml-2 w-full " data-aos="fade-up-right">
-            <form action="submit" class="flex flex-col w-full">
+        <div class="tutor-form md:ml-2 w-full " data-aos="fade-up-right">
+            <form action="submit" class="flex flex-col w-full self-center">
 
             <group>
                 <input class="shadow-md" type="text" name="first-name" placeholder="First Name" required>
@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="tutor-img z-10  mt-2 mr-16  md:ml-8 " data-aos="fade-up-right">
+        <div class="tutor-img  hidden md:inline md:z-10  mt-2 mr-16  md:ml-8 " data-aos="fade-up-right">
 
           <img  src="/imgs/tutoring.svg" alt="" class="w-full md:3/4 ">
 

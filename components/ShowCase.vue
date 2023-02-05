@@ -14,11 +14,11 @@ export default {
 <template>
 
 
-  <div class="showcase-container w-full flex flex-col md:flex-row justify-center align-center pb-32 pt-24" >
-  <div class="showcase-info w-full md:w-1/2 text-left mx-4 md:pl-24 mt-24 pr-8" data-aos="fade-up">
-    <h1 class="text-6xl font-bold py-4 " data-aos="fade-up-right"><span class="text-yellow-500">Access Geology help</span> from anywhere and anytime</h1>
+  <div class="showcase-container w-full flex flex-col md:flex-row justify-center align-center md:pb-32 md:pt-24" >
+  <div class="showcase-info w-full md:w-1/2 text-left md:mx-4 md:pl-24 md:mt-24 md:pr-8 px-4  " data-aos="fade-up">
+    <h1 class="text-4xl md:text-6xl w-full font-bold py-4 " data-aos="fade-up-right"><span class="text-yellow-500">Access Geology help</span> from anywhere and anytime</h1>
 
-    <p class="py-4">Get the best earth science education online with our comprehensive website. Students have access to free chapter summaries, quizzes, flashcards, audio summaries, and more. Plus, online tutoring is available to help you succeed. Try us out today!</p>
+    <p class="py-4 w-full ">Get the best earth science education online with our comprehensive website. Students have access to free chapter summaries, quizzes, flashcards, audio summaries, and more. Plus, online tutoring is available to help you succeed. Try us out today!</p>
 
 
       <AppButton
@@ -33,7 +33,7 @@ export default {
 
 
 
-    <img src="/imgs/showcase-img.svg" alt="Young person studying at a computer" class="  md:w-3/4 place-center self-center">
+    <img src="/imgs/showcase-img.svg" alt="Young person studying at a computer" class=" w-full md:w-3/4 place-center self-center">
 
 
   </div>

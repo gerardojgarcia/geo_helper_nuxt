@@ -19,7 +19,7 @@ export default {
     <div class="topic-card rounded-lg flex flex-col shadow-md hover:shadow-xl mx-4 text-left cursor-pointer ">
 
     
-            <img :src="topic.image" alt="Image for Topic Content" class="topic-img rounded-lg mb-4 ">
+            <img :src="topic.image" alt="Image for Topic Content" class="topic-img rounded-lg mb-4 " width="500" height="500">
         <strong class="mx-4 text-3xl">{{ topic.topic }}</strong>
         <p class="mx-8 my-8">{{ topic.description }}</p>
 
@@ -28,7 +28,7 @@ export default {
 
 
             <NuxtLink :to="topic.link"
-                class="text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white ">
+                class="text-white rounded-sm bg-teal-700 shadow-md px-4 py-2 hover:bg-teal-500 border-0 hover:shadow-xl hover:text-white ">
                 Explore</NuxtLink>
 
         </div>
@@ -59,8 +59,8 @@ export default {
 
 
 .topic-img {
-    object-fit: cover;
     width: 100%;
-    height: 50%;
+  height: 50%;
+  aspect-ratio: attr(width) / attr(height)
 }
 </style>

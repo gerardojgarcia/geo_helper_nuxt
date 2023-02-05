@@ -47,19 +47,19 @@ export default {
 
 
     <!-- Topics Card <Box-->
-<div class="flex flex-row w-full align-center justify-center items-center" data-aos="fade-up-left" data-aos-duration="500">
+<div class="flex flex-col md:flex-row w-full align-center mt-8 justify-center items-center" data-aos="fade-up-left" data-aos-duration="500">
 
             <div>
                 <button  class="bg-white border-0 p-6" @click="topicLeft" aria-label="Move Items left"><font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" /></button>
         </div>
 
 
-        <div class="topic-box w-5/6 flex flex-row w-full mx-2 my-16 py-8 overflow-x-auto self-center scroll-smooth" id="topics-box" >
+        <div class="topic-box w-5/6 flex flex-row w-full mx-2 md:my-16 md:py-8 overflow-x-auto self-center scroll-smooth" id="topics-box" >
 
 
 <!--Topic Card-->
 
-       <div class="flex flex-row " v-for="topic in topics" :key="topic.id">
+       <div class="flex flex-col md:flex-row " v-for="topic in topics" :key="topic.id">
 
            <TopicsCard  :topic="topic" data-aos="fade-up" data-aos-duration="2500"/>
 
