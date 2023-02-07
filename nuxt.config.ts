@@ -4,7 +4,9 @@ import {defineNuxtConfig} from "nuxt/config";
 export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',
-		['@nuxtjs/robots', { configPath: "~/config/robots.config" }]
+		['@nuxtjs/robots', { configPath: "~/config/robots.config" }],
+		'@nuxt/image-edge',
+		'@averjs/nuxt-compression'
 		
 
 
@@ -33,7 +35,8 @@ export default defineNuxtConfig({
 	},
 	nitro: {
 		compressPublicAssets: true,
-	}
+	},
+	
 
 
 })

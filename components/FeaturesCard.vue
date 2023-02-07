@@ -19,7 +19,7 @@
     <div class="feature-card bg-white shadow-lg my-4 md:mx-4 rounded-lg w-60 h-64  flex flex-col ">
             
             <div class=" icon-box self-center grid place-items-center bg-yellow-200"><font-awesome-icon :icon="icon" class="text-2xl text-teal-700"/></div>
-            <p class="data mt-8 text-3xl text-teal-700 self-center text-center">{{data}}+</p>
+            <p class="data mt-8 text-3xl text-teal-600 self-center text-center">{{data}}+</p>
             <p class="text-gray-500 m-2 text-center" >{{title}}</p>
         
         
