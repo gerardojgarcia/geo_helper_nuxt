@@ -31,7 +31,12 @@ export default {
 
       <AppButton name="Explore Topics" link="#topics" class="mt-16" />
     </div>
-    <nuxt-img src="/showcase-img.png" format="webp" sizes="sm:90vw md:50vw lg:100vw" />
+    <nuxt-img
+      src="/showcase-img.png"
+      format="webp"
+      sizes="sm:90vw md:50vw lg:100vw"
+      alt="Illustration of a student studying at their desk"
+    />
   </div>
 </template>
 
