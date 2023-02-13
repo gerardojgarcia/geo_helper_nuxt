@@ -63,7 +63,7 @@ export default {
     this.quiz = [
       {
         id: 1,
-        question: "Igneous Rocks _____",
+        question: "desert Rocks _____",
         answerId: "quiz-answer",
         answer1: "Are formed through hte freezing of melt",
         answer2: " All are correct  ",
@@ -101,7 +101,7 @@ export default {
       },
       {
         id: 5,
-        question: "Compared to mafic igneous rocks, all felsic igneous rocks _____",
+        question: "Compared to mafic desert rocks, all felsic desert rocks _____",
         answerId: "quiz-answer5",
         answer1: "cool and solidify more quickly",
         answer2: "Solidify at lower tempereatures",
@@ -133,11 +133,11 @@ export default {
 
 <template>
   <div class="w-full flex flex-col text-left">
-    <div class="igneous-hero bg-fixed pb-52">
+    <div class="desert-hero bg-fixed pb-52">
       <div class="w-1/2 ml-16 mt-32 text-white">
-        <h1 class="text-7xl text-shadow-lg">Igneous Rocks</h1>
+        <h1 class="text-7xl text-shadow-lg">desert Rocks</h1>
         <p class="w-1/2 pl-2 mt-8 text-lg">
-          Everything you wanted to know about Igneous Rocks.
+          Everything you wanted to know about desert Rocks.
         </p>
       </div>
     </div>
@@ -148,7 +148,7 @@ export default {
       </div>
 
       <div class="flex flex-col col-span-3 bg-fixed sticky left-64 px-16 overflow-auto">
-        <div id="summary" class="igneous-summary w-3/4 m-auto mt-16 indent-2">
+        <div id="summary" class="desert-summary w-3/4 m-auto mt-16 indent-2">
           <div class="mb-16">
             <strong class="text-5xl text-shadow-sm">Topic Summary</strong>
           </div>
@@ -173,32 +173,32 @@ export default {
             by the magma. The rate at which intrusive magma cools depends on the depth at
             which it intrudes, the size and shape of the magma body, and whiter
             circulating groundwater s is present. The cooling time influences the texture
-            of an igneous rock. extrusive igneous rocks form from lava that erupts out of
-            a volcano. Intrusive igneous rocks develop from magma the that freezes inside
-            the Earth.
+            of an desert rock. extrusive desert rocks form from lava that erupts out of a
+            volcano. Intrusive desert rocks develop from magma the that freezes inside the
+            Earth.
           </p>
           <p>
             ava may solidify to form flows. Or it may explode into the air to form ash.
-            Intrusive igneous rocks form when magma intrudes into preexisting rock below
+            Intrusive desert rocks form when magma intrudes into preexisting rock below
             Earth’s surface. Blob-shaped intrusions are called futons. Tabular intrusions
             that cut across layering are dikes, and those that form parallel to layering
             are sills. Huge intrusions, made up of many platoons, are known as batholiths.
           </p>
-          <p>igneous rocks are classified according to texture and composition.</p>
+          <p>desert rocks are classified according to texture and composition.</p>
           <p>
-            The origin of igneous rocks can readily be understood in the context of plate
+            The origin of desert rocks can readily be understood in the context of plate
             tectonics. Magma forms at continental or island volcanic arcs along convergent
             margins, mostly because of the additions of volatiles to the asthenosphere
-            above the subjecting slab. Igneous rocks form at ho spots, owing to the
-            decompression melting o f a rising maple plume. Igneous rocks form at rifts
-            asa result of either decompression melting of the asthenosphere below the
-            thinning lithosphere or heat transfer from mantle melts int crustal rocks.
-            Igneous rocks form along mid-ocean ridges because of decompression melting of
-            the rising asthenosphere.
+            above the subjecting slab. desert rocks form at ho spots, owing to the
+            decompression melting o f a rising maple plume. desert rocks form at rifts asa
+            result of either decompression melting of the asthenosphere below the thinning
+            lithosphere or heat transfer from mantle melts int crustal rocks. desert rocks
+            form along mid-ocean ridges because of decompression melting of the rising
+            asthenosphere.
           </p>
         </div>
 
-        <div class="igneous-banner1 w-full bg-fixed flex flex-col text-black">
+        <div class="desert-banner1 w-full bg-fixed flex flex-col text-black">
           <div
             class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
           >
@@ -227,19 +227,19 @@ export default {
           </div>
         </div>
 
-        <div id="key_points" class="igneous_points w-3/4 m-auto mt-16">
+        <div id="key_points" class="desert_points w-3/4 m-auto mt-16">
           <div class="mb-16">
             <strong class="text-5xl text-shadow-sm">Key Points</strong>
           </div>
 
-          <p>- the Majority of the crust and mantle is made up of igneous rocks</p>
+          <p>- the Majority of the crust and mantle is made up of desert rocks</p>
           <p>
-            - Igneous rocks solidify from melt - either lava or magma; melts are derived
+            - desert rocks solidify from melt - either lava or magma; melts are derived
             from pressure release. The addition of volatiles, or heat transfer from rising
             magma.
           </p>
           <p>
-            - Igneous rocks are classified on the basis of texture. Which may be
+            - desert rocks are classified on the basis of texture. Which may be
             interlocking. Fragmental, or glassy, and also on the basis of mineral
             composition (felsic, intermediate, magic, or ultramafic) interlocking textures
             include coarse-grained and fine-grained examples. Grain size and cmopotino
@@ -249,11 +249,11 @@ export default {
           <p>- Three types of intrusions: dikes, sills, and plutons</p>
           <p>
             - Settings of volcanism: mid ocean ridges. Island and contingent volcanic arcs
-            , hot spots. Large igneous provinces, and continental rifts.
+            , hot spots. Large desert provinces, and continental rifts.
           </p>
         </div>
 
-        <div class="igneous-banner2 w-full bg-fixed flex flex-col text-white">
+        <div class="desert-banner2 w-full bg-fixed flex flex-col text-white">
           <div
             class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
           >
@@ -280,7 +280,7 @@ export default {
           </div>
         </div>
 
-        <div id="questions_answers" class="igneous_questions w-3/4 m-auto mt-16">
+        <div id="questions_answers" class="desert_questions w-3/4 m-auto mt-16">
           <div class="mb-16">
             <strong class="text-5xl text-shadow-sm">Questions & Answers</strong>
           </div>
@@ -299,13 +299,13 @@ export default {
           </p>
           <p>
             <span>Q: </span>What is the source of heat in the Earth? How did the first
-            igneous rocks on the planet form?
+            desert rocks on the planet form?
           </p>
           <p>
             <span>A: </span> Earth has derived heat from collisions, gravitational
             compression, decay of radioactive isotopes. Meteoric bombardment, and
             differentiation. Eart was intintailly so hot that its surface was molten; the
-            first igneous rocks solidified from this melt.
+            first desert rocks solidified from this melt.
           </p>
           <p>
             <span>Q: </span> Describe the three processes that are responsisible for the
@@ -380,11 +380,11 @@ export default {
             not leave sufficient time for large crystals to become organized.
           </p>
           <p>
-            <span>Q: </span> What does the picture of grain sizes in a porphyritic igneous
+            <span>Q: </span> What does the picture of grain sizes in a porphyritic desert
             rock indicate about its cooling history?
           </p>
           <p>
-            <span>A: </span>porphyritic igneous rocks occur when an initial phase of
+            <span>A: </span>porphyritic desert rocks occur when an initial phase of
             gradual cooling with in the earth gives way to much more rapid cooling
             subsequent to eruption.
           </p>
@@ -425,13 +425,13 @@ export default {
             composition.
           </p>
           <p>
-            <span>Q: </span> What is a large igneous province LIP? How might the formation
+            <span>Q: </span> What is a large desert province LIP? How might the formation
             of LIPS have affected the Earth System?
           </p>
           <p>
-            <span>A: </span>A large igneous province is argon in the crust that contains
-            an unusually large volume of igneous rock. The formation of such province
-            might have affected the earth system in a number of ways . For example, large
+            <span>A: </span>A large desert province is argon in the crust that contains an
+            unusually large volume of desert rock. The formation of such province might
+            have affected the earth system in a number of ways . For example, large
             quantities of submarine basalt might have led to the inundation of conintinest
             by shallow seas. These large submarine basalts might have also changed
             patterns of ocean circulation, which could have then altered the climate of
@@ -460,7 +460,7 @@ export default {
 </template>
 
 <style scoped>
-.igneous-hero {
+.desert-hero {
   background-image: url("/imgs/pexels-pixabay-87651.webp");
   height: 75vh;
   background-repeat: no-repeat;
@@ -479,14 +479,14 @@ span {
   font-weight: bold;
 }
 
-.igneous-banner1 {
+.desert-banner1 {
   background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
-.igneous-banner2 {
+.desert-banner2 {
   background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
   min-height: 45vh;
   background-position: center;
