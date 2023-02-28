@@ -5,6 +5,7 @@ import Quiz from "../components/Quiz.vue";
 import ToTop from "../components/ToTop.vue";
 import ToBottom from "../components/ToBottom.vue";
 import JumpToSection from "../components/JumpToSection.vue";
+import AppQuizPopup from "~~/components/AppQuizPopup.vue";
 
 export default {
   name: "Earth",
@@ -200,6 +201,7 @@ export default {
     Quiz,
     ToTop,
     ToBottom,
+    AppQuizPopup,
   },
 };
 </script>
