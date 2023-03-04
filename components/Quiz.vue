@@ -69,7 +69,7 @@ export default {
       </div>
     </div>
 
-    <AppQuizPopup id="quiz-popup" />
+
   </div>
 </template>
 

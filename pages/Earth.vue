@@ -304,14 +304,14 @@ export default {
           <div
             class="question-box m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center flex-wrap"
           >
-            <strong class="text-4xl mt-8">Knowledge Check</strong>
+            <strong class="text-4xl ml-6 mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
               <p class="mt-2 text-lg md:ml-8 break-normal">
                 What gas is the atmosphere primarily composed of?
               </p>
               <p id="answer2" class="text-xl"></p>
-              <div class="w-1/2 flex flex-row justify-center items-center m-auto">
+              <div class="md:w-1/2 flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-center md:items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
                   @click="answer2"
@@ -406,14 +406,14 @@ export default {
 
         <div class="earth-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+            class="question-box m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center "
           >
-            <strong class="text-4xl mt-8">Knowledge Check</strong>
+            <strong class=" text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
               <p class="mt-2 text-xl">Which is more dense?</p>
               <p id="answer" class="text-xl"></p>
-              <div class="w-1/2 flex flex-row justify-center items-center m-auto">
+              <div class="md:w-1/2 space-y-4 md:space-y-0 flex flex-col md:flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
                   @click="answer"
@@ -431,7 +431,7 @@ export default {
           </div>
         </div>
 
-        <div id="questions_answers" class="earth_questions md:w-3/4 m-auto mt-16">
+        <div id="questions_answers" class="earth_questions w-full md:w-3/4 m-auto mt-16">
           <div class="mb-16">
             <strong class="text-5xl text-shadow-sm">Questions & Answers</strong>
           </div>
@@ -579,7 +579,7 @@ export default {
             outer part is liquid. Circulation of iron atoms in the liquid outer core
             generates the magnetic filed of the Earth.
           </p>
-          <img
+          <nuxt-img
             src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.webp"
             alt="Image of the layers of the earth"
             width="500px"
@@ -706,7 +706,7 @@ span {
 }
 
 .question-box {
-  min-width: 500px;
+  min-width: 300px;
 }
 
 @media (max-width: 800px) {
