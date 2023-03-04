@@ -30,16 +30,16 @@
         </div>
 
         <div class="tutor-form md:ml-2 w-full " data-aos="fade-up-right">
-            <form action="submit" class="flex flex-col w-full self-center">
+            <form action="submit" class="flex flex-col w-full m-auto  space-y-6 ">
 
-            <group>
-                <input class="shadow-md" type="text" name="first-name" placeholder="First Name" required>
-                <input class="shadow-md" type="text" name="last-name" placeholder="Last Name" required>
-            </group>
-            <group>
-                <input class="shadow-md" type="text" name="email" placeholder="Email" required>
-                <input class="shadow-md" type="text" name="name" placeholder="Question" required>
-            </group>
+            <div class="flex items-center flex-col space-y-4">
+                <input class="shadow-md rounded-lg p-2" type="text" name="first-name" placeholder="First Name" required>
+                <input class="shadow-md rounded-lg p-2" type="text" name="last-name" placeholder="Last Name" required>
+            </div>
+            <div class="flex items-center flex-col space-y-4">
+                <input class="shadow-md rounded-lg p-2" type="email" name="email" placeholder="Email" required>
+                <textarea class="shadow-md rounded-lg p-2" type="text" name="name" placeholder="Question" required></textarea>
+            </div>
 
 
             <button class=" self-center text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white w-32 my-8">Submit</button>
@@ -72,14 +72,7 @@
 </template>
 
 <style scoped>
-     input {
-        background-color: white;
-        border-radius: 5rem;
-        width: 15rem;
-        padding:5px;
-        margin-bottom: 10px;
-        margin-right: 15px;
-     }
+
 
 .tutor-container {
     background-color: #f9b83b;
