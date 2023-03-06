@@ -93,52 +93,52 @@ export default {
         {
           id: 1,
           term: "Asthenosphere",
-          definition: "The rock we're spinning on",
+          definition: "the upper layer of the earth's mantle, below the lithosphere, in which there is relatively low resistance to plastic flow and convection is thought to occur.",
         },
         {
           id: 2,
           term: "atmosphere",
-          definition: "The rock we're spinning on",
+          definition: "the envelope of gases surrounding the earth or another planet.",
         },
         {
           id: 3,
           term: "Big Bang Theory",
-          definition: "The rock we're spinning on",
+          definition: "The big bang is how astronomers explain the way the universe began. It is the idea that the universe began as just a single point, then expanded and stretched to grow as large as it is right now—and it is still stretching!",
         },
         {
           id: 4,
           term: "Doppler Effect",
-          definition: "The rock we're spinning on",
+          definition: "an increase (or decrease) in the frequency of sound, light, or other waves as the source and observer move toward (or away from) each other. The effect causes the sudden change in pitch noticeable in a passing siren, as well as the redshift seen by astronomers.",
         },
         {
           id: 5,
           term: "lithosphere",
-          definition: "The rock we're spinning on",
+          definition: "the rigid outer part of the earth, consisting of the crust and upper mantle.",
         },
         {
           id: 6,
           term: "mantle",
-          definition: "The rock we're spinning on",
+          definition: "the region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks (mainly peridotite).",
         },
         {
           id: 7,
           term: "Moho",
-          definition: "The rock we're spinning on",
+          definition: "he boundary surface between the earth's crust and the mantle, lying at a depth of about 6–7 miles (10–12 km) under the ocean bed and about 24–30 miles (40–50 km) under the continents.",
         },
         {
           id: 8,
           term: "planetesimal",
-          definition: "The rock we're spinning on",
+          definition: "a minute planet; a body that could or did come together with many others under gravitation to form a planet.",
         },
         {
           id: 9,
           term: "red shift",
-          definition: "The rock we're spinning on",
+          definition: "the displacement of spectral lines toward longer wavelengths (the red end of the spectrum) in radiation from distant galaxies and celestial objects. This is interpreted as a Doppler shift that is proportional to the velocity of recession and thus to distance.",
         },
         {
           id: 10,
           term: "nebular theory",
-          definition: "The rock we're spinning on",
+          definition: "the theory that the solar and stellar systems were developed from a primeval nebula.",
         },
       ]);
   },

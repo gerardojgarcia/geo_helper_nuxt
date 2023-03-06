@@ -47,13 +47,13 @@ export default {
 </script>
 
 <template>
-  <div class="m-auto w-4/5">
+  <div class="m-auto md:w-4/5">
     <div>
       <strong class="text-6xl">Quiz</strong>
     </div>
     <div class="quiz w-full m-2">
       <div
-        class="question flex flex-col rounded-xl shadow-lg p-2 mb-8"
+        class="question flex flex-col rounded-xl shadow-lg p-4 mb-8"
         v-for="quiz in quiz"
         :key="quiz.id"
       >
