@@ -8,7 +8,7 @@ export default {
 
 <template>
   <div
-    class="community-container flex flex-col md:flex-row w-full px-4 justify-center pb-16"
+    class="community-container  bg-white flex flex-col md:flex-row w-full px-4 justify-center pb-16"
   >
     <div class="flex flex-col w-full px-4 md:w-1/2">
       <div class="community-text text-left md:ml-4 md:ml-16 md:mt-24">

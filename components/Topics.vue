@@ -32,7 +32,7 @@ export default {
 <template>
 
 
-    <div id="topics" class="topics-container w-full flex flex-col align-center justify-center md:px-16 pb-28" >
+    <div id="topics" class="topics-container bg-white w-full flex flex-col align-center justify-center md:px-16 pb-28" >
 
         <!--Topics <Header-->
 

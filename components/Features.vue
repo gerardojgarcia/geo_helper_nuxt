@@ -13,7 +13,7 @@ import FeaturesCard from "./FeaturesCard.vue";
 
     <template>
 
-        <div class=" bg-teal-600 pb-16" data-aos="fade-up" data-aos-duration="250">
+        <div class=" bg-teal-600 pb-16 " data-aos="fade-up" data-aos-duration="250">
 
 
     <h2 class="text-4xl text-white font-bold py-16 md:pl-24">What you'll find inside</h2>
