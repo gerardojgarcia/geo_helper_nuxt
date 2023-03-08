@@ -140,17 +140,17 @@ import JumpToSection from "../components/JumpToSection.vue";
     
         <div class="w-full flex flex-col text-left  ">
     
-            <div class="mineral-hero bg-fixed pb-52 flex-col">
-                <div class="w-1/2 ml-16 mt-32 text-white">
+            <div class="mineral-hero bg-fixed pb-52 flex flex-col">
+                <div class="md:w-1/2 md:ml-16 mt-32 text-white">
                     <h1 class="text-7xl text-shadow-lg">Minerals</h1>
-                    <p class="w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about minerals.</p>
+                    <p class="md:w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about minerals.</p>
                 </div>
 
 
     
             </div>
 
-          <div class="grid grid-cols-4 isolate bg-fixed top-52">
+          <div class="flex flex-col md:grid grid-cols-4 isolate md:bg-fixed md:top-52">
 
           <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
             <AppSideNav/>
@@ -158,7 +158,7 @@ import JumpToSection from "../components/JumpToSection.vue";
           </div>
 
 
-            <div class="flex flex-col col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
+            <div class="flex flex-col md:col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
 
 
             <div id="summary" class="mineral-summary w-3/4 m-auto md:ml-72 mt-16 indent-2">
@@ -212,7 +212,7 @@ import JumpToSection from "../components/JumpToSection.vue";
                         <div class="w-full flex flex-col  text-center  mb-16 ">
                             <p class="mt-2 text-lg ml-8">Which of the following is considered a mineral?</p>
                             <p id="answer2" class="text-xl"></p>
-                            <div class=" w-1/2 flex flex-row justify-center items-center m-auto">
+                            <div class=" md:w-1/2 flex flex-row justify-center space-y-2 md:space-y-0 md:flex-row md:justify-center  md:items-center m-auto">
                             <button class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4" @click="answer2">Salt</button> <button class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white" @click="wrongAnswer2">Plastic</button></div>
                         </div>
                     

@@ -1,4 +1,4 @@
-<script>
+  <script>
 export default {
   name: "Footer",
 };
@@ -15,6 +15,7 @@ export default {
         alt="Logo image for geo hand"
         class="logo w-32 mb-16"
         sizes="sm:100vw md:50vw lg:400px"
+        format="webp"
       />
       <div class="social-media">
         <i class="fa-brands fa-facebook"></i>
@@ -61,7 +62,7 @@ export default {
 
 <style scoped>
 .footer-container {
-  background-color: var(--secondary-clr);
+  background-color: white;
 }
 
 .footer-strong {

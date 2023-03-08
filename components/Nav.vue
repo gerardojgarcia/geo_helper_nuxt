@@ -36,10 +36,10 @@ import NavSearch from './NavSearch.vue';
 
 <template>
 
-  <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6">
+  <nav class="flex items-center justify-between flex-wrap bg-green-900 p-6 fixed w-full z-10 top-0">
     <div class="flex items-center flex-shrink-0 text-white mr-6">
 
-      <span class="font-semibold text-xl tracking-tight">EarthTutor</span>
+      <span class="font-bold text-xl tracking-tight">EarthTutor</span>
     </div>
     <span class="text-white hidden md:inline lg:inline">{{message}}</span>
     <div class="block lg:hidden">
@@ -65,7 +65,7 @@ import NavSearch from './NavSearch.vue';
 
 
       <div>
-        <NuxtLink href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-white mt-4 lg:mt-0">Contact</NuxtLink>
+        <NuxtLink href="#footer" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-white hover:bg-white mt-4 lg:mt-0">Contact</NuxtLink>
       </div>
     </div>
   </nav>

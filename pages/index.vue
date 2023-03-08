@@ -25,6 +25,7 @@ export default {
     Footer,
     ToTop,
     ToBottom,
+
   },
   props: {
     name: String,
@@ -121,6 +122,7 @@ export default {
     <ShowCase />
     <Features />
     <Topics :topics="topics" />
+    <AppGeoNews/>
     <Tutoring />
     <Community />
     <ToTop />

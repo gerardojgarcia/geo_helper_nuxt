@@ -59,7 +59,7 @@
 
         <div class="w-full flex flex-col text-left  ">
 
-            <div class="tectonic-hero bg-fixed pb-52">
+            <div class="tectonic-hero bg-fixed pb-52 flex-col">
                 <div class="w-1/2 ml-16 mt-32 text-white">
                     <h1 class="text-7xl text-shadow-lg">Plate Tectonics</h1>
                     <p class="w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about tectonics.</p>
