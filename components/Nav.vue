@@ -55,9 +55,7 @@ import NavSearch from './NavSearch.vue';
         <NuxtLink to="TopicPage" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200 mr-4">
           Topics
         </NuxtLink>
-        <NuxtLink to="#responsive-header" class="nav-link block mt-4 lg:inline-block lg:mt-0 text-white hover:text-orange-200">
-          Shop
-        </NuxtLink>
+
       </div>
 
       <i class="fa fa-shopping-bag text-white hidden md:inline mr-8 cursor-pointer" aria-hidden="true"></i>

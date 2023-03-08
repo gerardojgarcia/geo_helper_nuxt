@@ -2,7 +2,6 @@
 import AppButton from "../components/AppButton.vue";
 import Nav from "../components/Nav.vue";
 import ShowCase from "../components/ShowCase.vue";
-
 import Topics from "../components/Topics.vue";
 import Tutoring from "../components/Tutoring.vue";
 import Features from "../components/Features.vue";

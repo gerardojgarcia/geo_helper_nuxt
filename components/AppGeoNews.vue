@@ -13,13 +13,13 @@ const { data: articles } = await useFetch('https://newsapi.org/v2/everything?q=g
 
     <strong class="text-3xl">Latest Earth Science News</strong>
 
-<div class=" md:space-x-16 flex flex-col md:grid grid-cols-4 space-y-8">
+<div class=" gap-5 flex flex-col md:grid grid-cols-4 space-y-8">
 
-  <NuxtLink class="flex flex-col py-16 rounded-xl shadow-lg space-y-8 p-4 md:p-8 " v-for="article in articles.articles" :key="article" :to="article.url" target="_blank" data-aos="fade-up" data-aos-duration="1500">
+  <NuxtLink class="flex flex-col py-16 rounded-xl shadow-lg space-y-4 p-4 md:p-8 hover:shadow-xl" v-for="article in articles.articles" :key="article" :to="article.url" target="_blank" data-aos="fade-up" data-aos-duration="1500">
     <div class="space-y-8" >
       <nuxt-img :src="article.urlToImage"/>
-      <p class="text-3xl">{{article.title}}</p>
-      <p>By: {{article.author}}</p>
+      <p class="text-2xl font-bold">{{article.title}}</p>
+      <p class="text-xl">By: {{article.author}}</p>
       <p>{{article.description}}</p>
 
 
