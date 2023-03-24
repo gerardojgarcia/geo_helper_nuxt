@@ -9,11 +9,13 @@ import Community from "../components/Community.vue";
 import Footer from "../components/Footer.vue";
 import ToTop from "../components/ToTop.vue";
 import ToBottom from "../components/ToBottom.vue";
-
+import AppImageUploader from "~/components/AppImageUploader.vue";
+import AppImageUploaderLaravel from "~/components/AppImageUploaderLaravel.vue";
 export default {
   name: "index",
 
   components: {
+    AppImageUploaderLaravel,
     AppButton,
     Nav,
     ShowCase,
@@ -24,6 +26,7 @@ export default {
     Footer,
     ToTop,
     ToBottom,
+    AppImageUploader
 
   },
   props: {
@@ -123,6 +126,8 @@ export default {
     <Topics :topics="topics" />
     <AppGeoNews/>
     <Tutoring />
+    <!--<AppImageUploader/>-->
+    <AppImageUploaderLaravel/>
     <Community />
     <ToTop />
     <ToBottom />

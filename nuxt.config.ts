@@ -6,7 +6,8 @@ export default defineNuxtConfig({
 		'@nuxtjs/tailwindcss',
 		['@nuxtjs/robots', { configPath: "~/config/robots.config" }],
 		'@nuxt/image-edge',
-		'@averjs/nuxt-compression'
+		'@averjs/nuxt-compression',
+		'@nuxtjs/supabase'
 		
 
 
@@ -43,6 +44,10 @@ export default defineNuxtConfig({
 			crawlLinks: true,
 		}
 	},
+	supabase: {
+		url: 'https://jtehldmbvntevzzmecyw.supabase.co',
+		key: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imp0ZWhsZG1idm50ZXZ6em1lY3l3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE2Nzk1NTg4NTgsImV4cCI6MTk5NTEzNDg1OH0.CU5zMoWzdepE8lpIFJi9c5KeUg5TfwsLgBWFp6BvRDw'
+	}
 	
 
 

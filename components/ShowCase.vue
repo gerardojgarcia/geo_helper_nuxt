@@ -14,7 +14,7 @@ export default {
   <div
     class="showcase-container  flex flex-col md:flex-row justify-center align-center pb-16 md:pb-32 pt-40 md:pt-24 mt-16"
   >
-    <video class="hidden md:block"  id="background-video" autoplay loop muted src="/volcano_loop.webm"></video>
+
     <div
       class="showcase-info w-full md:w-1/2 text-left md:mx-4 md:pl-24 md:mt-24 md:pr-8 px-4"
       data-aos="fade-up"
