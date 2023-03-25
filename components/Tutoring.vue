@@ -57,7 +57,7 @@
 
         </div>
 
-        <div class="tutor-img  hidden md:inline md:z-10  mt-2 mr-16  md:ml-8 " data-aos="fade-up-right">
+        <div class="tutor-img  hidden md:inline   mt-2 mr-16  md:ml-8 " data-aos="fade-up-right">
 
           <img  src="/imgs/tutoring.svg" alt="" class="w-full md:3/4 ">
 
