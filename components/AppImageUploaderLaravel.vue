@@ -6,9 +6,9 @@ import { ref } from 'vue'
 export default {
   setup() {
     const images = ref([
-      {url:'https://jtehldmbvntevzzmecyw.supabase.co/storage/v1/object/public/geo-images/Screen%20Shot%202021-09-29%20at%203.27.39%20AM.png'},
-      {url:'https://jtehldmbvntevzzmecyw.supabase.co/storage/v1/object/public/geo-images/C2183994-47BD-4419-AD37-263C1ABDD17A.jpeg'},
-      {url:'https://jtehldmbvntevzzmecyw.supabase.co/storage/v1/object/public/geo-images/Screenshot%202023-03-17%20at%205.07.15%20AM.png'}
+      {url:'/imgs/img1.webp'},
+      {url:'/imgs/img2.webp'},
+      {url:'/imgs/img3.webp'}
     ])
     const file = ref(null)
     const activeIndex = ref(0)
@@ -109,6 +109,7 @@ export default {
       <div v-if="showNotification">
         <p>Image uploaded successfully!</p>
       </div>
+      <p class="text-sm text-gray-400 mt-4"> *max file size 5mb. Images subject to review before posting. </p>
 
     </div>
 
