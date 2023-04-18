@@ -12,6 +12,8 @@
         <p>Image uploaded successfully!</p>
       </div>
 
+      <p class="text-sm text-gray-400 mt-4"> *max file size 5mb. Images subject to review before posting. </p>
+
     </div>
 
 

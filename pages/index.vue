@@ -124,7 +124,7 @@ export default {
     <ShowCase />
     <Features />
     <Topics :topics="topics" />
-    <AppGeoNews/>
+    <!--<AppGeoNews/>-->
     <Tutoring />
     <!--<AppImageUploader/>-->
     <AppImageUploaderLaravel/>
