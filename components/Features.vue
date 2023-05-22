@@ -12,7 +12,11 @@ export default {
 </script>
 
 <template>
-  <div class="bg-white pb-16" data-aos="fade-up" data-aos-duration="250">
+  <div
+    class="features-container bg-white pb-16"
+    data-aos="fade-up"
+    data-aos-duration="250"
+  >
     <h2 class="text-4xl text-black font-bold py-16 md:pl-24">What you'll find inside</h2>
 
     <!--Partners icon box-->
@@ -44,3 +48,12 @@ export default {
     </div>
   </div>
 </template>
+
+<style scoped lang="scss">
+.features-container {
+  background-image: url("/imgs/earthtutor_banner.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+</style>

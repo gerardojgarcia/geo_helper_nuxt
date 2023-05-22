@@ -39,12 +39,15 @@ export default {
       <AppButton name="Explore Topics" link="#topics" class="mt-16" />
     </div>
     <div class="w-1/2 grid place-items-center">
-      <div class="hero-img-container m-16 self-cente rounded-full overflow-hidden">
+      <div
+        class="hero-img-container m-16 grid place-items-center self-center rounded-full overflow-hidden"
+      >
         <nuxt-img
-          src="/showcase-img.png"
+          src="/imgs/showcase_img.png"
           format="webp"
-          sizes="sm:90vw md:50vw lg:80vw"
+          sizes="sm:90vw md:100vw lg:100vw"
           alt="Illustration of a student studying at their desk"
+          class="hero-img rounded-full"
         />
       </div>
     </div>
@@ -57,6 +60,8 @@ export default {
   box-sizing: border-box;
   box-shadow: 25px 5px 0px #ffe9a3, 30px 5px 0px black;
   height: 50vh;
+  object-fit: fill;
+  object-position: center;
   width: 20vw;
 }
 
@@ -83,5 +88,11 @@ h1 {
   right: 0;
   bottom: 0;
   z-index: -1;
+}
+
+.hero-img {
+  object-fit: cover;
+  padding: 2rem;
+  height: 95%;
 }
 </style>

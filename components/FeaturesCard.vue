@@ -13,13 +13,13 @@ export default {
 
 <template>
   <div
-    class="feature-card bg-white text-left my-4 md:mx-4 w-60 h-64 flex flex-col justify-start"
+    class="feature-card bg-white bg-opacity-50 backdrop-blur-md rounded-lg text-left my-4 p-8 md:mx-4 w-72 flex flex-col justify-start"
   >
     <div class="icon-box self-start grid place-items-center bg-white">
       <font-awesome-icon :icon="icon" class="text-5xl text-black" />
     </div>
     <p class="data mt-8 text-4xl font-bold text-black text-left">{{ data }}+</p>
-    <p class="text-gray-500 text-2xl m-2 text-left">{{ title }}</p>
+    <p class="text-black text-2xl m-2 text-left">{{ title }}</p>
   </div>
 </template>
 
