@@ -38,7 +38,7 @@ export default {
       <div
         class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
       >
-        <nuxt-img src="/imgs/img1.webp" />
+        <nuxt-img src="/imgs/img2.webp" />
 
         <div class="flex-col self-start">
           <strong class="text-xl text-black">San Andreas Fault</strong>
@@ -51,7 +51,7 @@ export default {
       <div
         class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
       >
-        <nuxt-img src="/imgs/img1.webp" />
+        <nuxt-img src="/imgs/img2.webp" />
 
         <div class="flex-col self-start">
           <strong class="text-xl text-black">Gelogy of the San Gabriel Mountains</strong>

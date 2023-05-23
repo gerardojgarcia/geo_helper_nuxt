@@ -1,48 +1,65 @@
-  <script>
+<script>
 export default {
   name: "Footer",
 };
 </script>
 
 <template>
-  <div
-    id="footer"
-    class="footer-container w-full flex flex-col md:flex-row pb-16 justify-center align-center"
-  >
-    <div class="footer-media flex flex-col md:w-1/2 items-center pt-16">
-      <nuxt-img
-        src="/imgs/geohandlogo.png"
-        alt="Logo image for geo hand"
-        class="logo w-32 mb-16"
-        sizes="sm:100vw md:50vw lg:400px"
-        format="webp"
-      />
-      <div class="social-media">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-youtube"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
+  <div id="footer" class="footer-container grid grid-cols-4 pb-16 gap-4">
+    <div class="footer-media flex flex-col items-center">
+      <div>
+        <strong class="text-3xl">EarthTutor</strong>
+        <p>email: hi@earthtutor.org</p>
+        <p>phone: 323-450-3223</p>
       </div>
     </div>
 
-    <div class="contact flex flex-col md:w-1/2 justify-start">
-      <div class="mt-16 self-start mb-8">
-        <strong class="footer-strong text-5xl text-white">Get in Touch</strong>
+    <div class="footer-media flex flex-col items-center">
+      <div>
+        <strong class="text-3xl">Tutoring</strong>
+        <p>Get help now</p>
+        <p>Schedule a session</p>
+      </div>
+    </div>
+
+    <div class="footer-media flex flex-col flex-start">
+      <div>
+        <strong class="text-3xl">Topics</strong>
       </div>
 
-      <div class="flex md:flex-row flex-col items-center">
+      <ul class="footer-topics-links grid grid-cols-2 pt-4">
+        <li class="fa-brands fa-facebook">Earth</li>
+        <li class="fa-brands fa-youtube">Minerals</li>
+        <li class="fa-brands fa-twitter">Earthquakes</li>
+        <li class="fa-brands fa-instagram">Sedimentary Rocks</li>
+        <li>Metamorphic Rocks</li>
+        <li>Igneous Rocks</li>
+        <li>Plate Tectonics</li>
+        <li>Volcanoes</li>
+        <li>Mountains</li>
+      </ul>
+    </div>
+
+    <div class="contact flex flex-col">
+      <div class="self-start mb-8">
+        <strong class="footer-strong text-5xl text-black">Get in Touch</strong>
+      </div>
+
+      <div class="flex w-full flex-col items-center">
         <form action="submit ">
-          <div class="flex flex-col md:flex-row">
+          <div class="flex flex-col w-full">
             <input
-              class="shadow-md rounded-xl bg-white p-1 mb-4 md:mr-4"
+              class="shadow-md form-name rounded-sm bg-white p-1 mb-4"
               type="text"
+              v-model="name"
               name="name"
               placeholder="Name"
               required
             />
             <input
-              class="shadow-md rounded-xl bg-white p-1"
+              class="shadow-md form-email rounded-sm bg-white p-1"
               type="text"
+              v-model="email"
               name="email"
               placeholder="Email"
               required
@@ -50,7 +67,7 @@ export default {
           </div>
 
           <button
-            class="self-center text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white w-32 ml-4 my-8"
+            class="form-btn self-center text-white rounded-sm bg-black w-full duration-100 px-4 py-2 border-0 hover:text-white my-8"
           >
             Submit
           </button>
@@ -62,16 +79,29 @@ export default {
 
 <style scoped>
 .footer-container {
-  background-color: white;
-}
-
-.footer-strong {
-  text-shadow: 2px 2px 5px black;
+  background-color: #ffe9a3;
+  padding: 4rem;
 }
 
 .social-media > i {
   font-size: 1.7rem;
   color: var(--accent-clr);
   margin-right: 1rem;
+}
+
+.footer-topics-links li {
+  margin-right: 0.5rem;
+}
+
+.form-name {
+  box-shadow: 4px 5px 0px black;
+}
+
+.form-email {
+  box-shadow: 4px 5px 0px black;
+}
+
+.form-btn:hover {
+  box-shadow: 4px 5px 0px #f3a08e;
 }
 </style>
