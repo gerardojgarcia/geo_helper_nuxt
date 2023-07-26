@@ -48,10 +48,10 @@ import JumpToSection from "../components/JumpToSection.vue";
         this.quiz = [
           {
             id: 1,
-            question: "Why do stars and constellations change location over the course of one night?",
+            question: "The vast majority of minerals ____?",
             answerId: 'quiz-answer',
-            answer1: "The stars themselves are moving",
-            answer2: "Our Planet rotates on its axis",
+            answer1: "Are quite common",
+            answer2: "Are rare",
             answer3: "Our planet rotates around tour Sun",
             answer4: "None are correct"
 
