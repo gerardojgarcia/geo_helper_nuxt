@@ -10,23 +10,12 @@ export default {
 </script>
 
 <template>
-  <div
-    class="showcase-container flex flex-col md:flex-row justify-between items-center pb-16 md:pb-32 pt-16 md:pt-10"
-  >
-    <div
-      class="showcase-info w-full md:w-1/2 text-left md:mx-4 md:pl-16 md:mt-6 md:pr-8 px-4 relative"
-      data-aos="fade-up"
-    >
-      <nuxt-img
-        src="/imgs/earth_tuto_background_hero.png"
-        alt="abstract shape for earth tutor hero background "
-        class="fixed -z-10 top-10 opacity-10"
-        sizes="sm:90vw md:50vw lg:80vw"
-      />
-      <h1
-        class="text-4xl md:text-6xl w-4/5 font-bold text-black md:text-black py-4"
-        data-aos="fade-up-right"
-      >
+  <div class="showcase-container flex flex-col md:flex-row justify-between items-center pb-16 md:pb-32 pt-16 md:pt-10">
+    <div class="showcase-info w-full flex flex-col md:w-1/2 text-left md:mx-4 md:pl-16 md:mt-6 md:pr-8 px-4 relative"
+      data-aos="fade-up">
+      <nuxt-img src="/imgs/earth_tuto_background_hero.png" alt="abstract shape for earth tutor hero background "
+        class="fixed -z-10 top-10 opacity-10" sizes="sm:90vw md:50vw lg:80vw" />
+      <h1 class="text-4xl md:text-6xl w-4/5 font-bold text-black md:text-black py-4" data-aos="fade-up-right">
         <span class="text-yellow-400">Access Geology help</span> from anywhere and anytime
       </h1>
 
@@ -36,19 +25,12 @@ export default {
         summaries, and more. Plus, online tutoring is available to help you succeed!
       </p>
 
-      <AppButton name="Explore Topics" link="#topics" class="mt-16" />
+      <AppButton name="Explore Topics" link="#topics" class="mt-16 self-end mr-16 text-2xl" />
     </div>
     <div class="w-1/2 grid place-items-center">
-      <div
-        class="hero-img-container m-16 grid place-items-center self-center rounded-full overflow-hidden"
-      >
-        <nuxt-img
-          src="/imgs/showcase_img.png"
-          format="webp"
-          sizes="sm:90vw md:100vw lg:100vw"
-          alt="Illustration of a student studying at their desk"
-          class="hero-img rounded-full"
-        />
+      <div class="hero-img-container  grid place-items-center overflow-hidden rounded-full self-center  ">
+        <nuxt-img src="/watercolor_geologist_campsite.png" format="webp" sizes="sm:90vw md:100vw lg:100vw"
+          alt="Illustration of a student studying at their desk" class="hero-img rounded-full" preload />
       </div>
     </div>
   </div>
@@ -56,13 +38,14 @@ export default {
 
 <style lang="scss" scoped>
 .hero-img-container {
-  background-color: #f3a08e;
+  //background-color: #f3a08e;
   box-sizing: border-box;
-  box-shadow: 25px 5px 0px #ffe9a3, 30px 5px 0px black;
-  height: 50vh;
-  object-fit: fill;
+  //box-shadow: 25px 5px 0px #ffe9a3, 30px 5px 0px black;
+  height: 75vh;
+  object-fit: cover;
   object-position: center;
-  width: 20vw;
+
+
 }
 
 .showcase-container {

@@ -52,8 +52,7 @@ import JumpToSection from "../components/JumpToSection.vue";
             answerId: 'quiz-answer',
             answer1: "Are quite common",
             answer2: "Are rare",
-            answer3: "Our planet rotates around tour Sun",
-            answer4: "None are correct"
+            
 
           },
           {
