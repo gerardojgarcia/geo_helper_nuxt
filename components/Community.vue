@@ -7,10 +7,8 @@ export default {
 </script>
 
 <template>
-  <div
-    class="community-container bg-white flex flex-col flex-wrap px-4 items-center justify-center pb-16"
-  >
-    <div class="community-text text-left md:ml-4 md:ml-16 md:mt-16">
+  <div class="community-container bg-white flex flex-col flex-wrap px-4 items-center justify-center pb-16">
+    <div class="community-text text-left  md:ml-16 md:mt-16">
       <h4 class="text-6xl mb-4 text-shadow-lg">Earth Science Deep Dives</h4>
       <p class="mb-16 text-gray-500 text-xl w-4/5 md:w-2/5">
         Different topics of interest that go beyond general geology. Satisfy your
@@ -18,14 +16,11 @@ export default {
       </p>
     </div>
 
-    <div
-      class="grid grid-cols-2 place-content-center text-left w-full md:w-3/5 flex-wrap pl-4 md:ml-16"
-    >
+    <div class="grid grid-cols-2 place-content-center text-left w-full md:w-3/5 flex-wrap pl-4 md:ml-16">
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
-      >
-        <nuxt-img src="/imgs/img1.webp" />
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer">
+        <nuxt-img src="/kings_canyon_sequoia.webp" width="400px" fit="cover" class="overflow-hidden h-auto" />
 
         <div class="flex-col self-start">
           <strong class="text-xl text-black">Sequoia and Kings Canyon</strong>
@@ -36,9 +31,8 @@ export default {
       </div>
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
-      >
-        <nuxt-img src="/imgs/img2.webp" />
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer">
+        <nuxt-img src="/san_andreas_fault.webp" />
 
         <div class="flex-col self-start">
           <strong class="text-xl text-black">San Andreas Fault</strong>
@@ -49,9 +43,8 @@ export default {
       </div>
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
-      >
-        <nuxt-img src="/imgs/img2.webp" />
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer">
+        <nuxt-img src="/san_gabriel.webp" />
 
         <div class="flex-col self-start">
           <strong class="text-xl text-black">Gelogy of the San Gabriel Mountains</strong>
@@ -62,8 +55,7 @@ export default {
       </div>
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
-      >
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer">
         <nuxt-img src="/imgs/img1.webp" />
 
         <div class="flex-col self-start">
@@ -75,8 +67,7 @@ export default {
       </div>
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 p-4 rounded-md md:w-3/4 cursor-pointer"
-      >
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 p-4 rounded-md md:w-3/4 cursor-pointer">
         <nuxt-img src="/imgs/img1.webp" />
 
         <div class="community-card-info flex-col self-start">
@@ -89,8 +80,7 @@ export default {
 
       <!--Community Card-->
       <div
-        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer"
-      >
+        class="community-card flex flex-col space-y-6 items-center border-2 border-black mb-8 rounded-md md:w-3/4 p-4 cursor-pointer">
         <nuxt-img src="/imgs/img1.webp" />
 
         <div class="flex-col self-start">
@@ -157,6 +147,8 @@ export default {
 .community-card {
   transition: all 500ms;
   margin-bottom: 25px;
+  max-height: 30rem;
+
 }
 
 .community-card:hover {
@@ -166,6 +158,7 @@ export default {
 .community-card-info {
   background-color: ;
 }
+
 .icon-div {
   border-radius: 50rem;
 }

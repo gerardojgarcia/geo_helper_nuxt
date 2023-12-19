@@ -458,7 +458,7 @@ export default {
 
 <style scoped>
 .metamorphic-hero {
-  background-image: url("/geology_globe_1.png");
+  background-image: url("/metamorphism_1.webp");
   height: 75vh;
   background-repeat: no-repeat;
   background-size: cover;

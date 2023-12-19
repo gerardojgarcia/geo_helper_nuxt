@@ -114,9 +114,9 @@ export default {
   <div class="w-full flex flex-col text-left">
     <div class="volcano-hero bg-fixed pb-52 flex-col">
       <div class="w-1/2 ml-16 mt-32 text-white">
-        <h1 class="text-7xl text-shadow-lg">Volcanoes</h1>
-        <p class="w-1/2 pl-2 mt-8 text-lg">
-          Everything you wanted to know about Volcano.
+        <h1 class="text-7xl text-shadow-lg text-black">Volcanoes</h1>
+        <p class="w-1/2 pl-2 mt-8 text-lg text-black">
+          Everything you wanted to know about Volcanoes
         </p>
       </div>
     </div>
@@ -135,7 +135,7 @@ export default {
           <audio src="/"></audio>
 
           <p>
-            Volcano are naturally occurring, solid substances. Formed by geologic
+            Volcanoes are naturally occurring, solid substances. Formed by geologic
             processes. With a definable chemical composition and an internal structure
             characterized by an orderly arrangement of atoms, ions or molecules in a
             crystalline lattice. Most Volcano are inorganic.
@@ -178,8 +178,7 @@ export default {
 
         <div class="volcano-banner1 w-full bg-fixed flex flex-col text-black">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
-          >
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -190,14 +189,12 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer2"
-                >
+                  @click="answer2">
                   Salt
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer2"
-                >
+                  @click="wrongAnswer2">
                   Plastic
                 </button>
               </div>
@@ -236,8 +233,7 @@ export default {
 
         <div class="volcano-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
-          >
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -246,14 +242,12 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer"
-                >
+                  @click="answer">
                   Living Organisms
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer"
-                >
+                  @click="wrongAnswer">
                   Biotite
                 </button>
               </div>
@@ -440,7 +434,10 @@ export default {
 
 <style scoped>
 .volcano-hero {
-  background-image: url("/imgs/pexels-pixabay-87651.webp");
+  background-image: url("/eruption_1.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   height: 75vh;
 }
 
@@ -457,14 +454,14 @@ span {
 }
 
 .volcano-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/eruption_2.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .volcano-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/eruption_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
