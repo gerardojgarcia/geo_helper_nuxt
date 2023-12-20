@@ -140,7 +140,7 @@ import JumpToSection from "../components/JumpToSection.vue";
         <div class="w-full flex flex-col text-left  ">
     
             <div class="mineral-hero bg-fixed pb-52 flex flex-col">
-                <div class="md:w-1/2 md:ml-16 mt-32 text-white">
+                <div class="md:w-1/2 md:ml-16 mt-32 text-black">
                     <h1 class="text-7xl text-shadow-lg">Minerals</h1>
                     <p class="md:w-1/2 pl-2 mt-8 text-lg">Everything you wanted to know about minerals.</p>
                 </div>
@@ -160,7 +160,7 @@ import JumpToSection from "../components/JumpToSection.vue";
             <div class="flex flex-col md:col-span-3  bg-fixed sticky left-64 px-16 overflow-auto">
 
 
-            <div id="summary" class="mineral-summary w-3/4 m-auto md:ml-72 mt-16 indent-2">
+            <div id="summary" class="mineral-summary  m-auto  mt-16 indent-2">
     
     
     
@@ -179,7 +179,7 @@ import JumpToSection from "../components/JumpToSection.vue";
  the most convenient way for classifying minerals is to group them according to their carbonates, and native metals. 
 </p>
 
-<img src="public/imgs/chapter2/FIG02.21d_ESSGEO4_CH02.webp" alt="">
+<nuxt-img src="/geologist_campsite_3.png"  preload sizes="lg:65vw" class="m-auto" alt="geologist recording notes at their campsite in a canyon"/>
 
     <p>silicate minerals are the most common minerals on Earth, the silicon-oxygen building block of silicate minerals. 
 </p>
@@ -364,7 +364,7 @@ import JumpToSection from "../components/JumpToSection.vue";
     
     <style scoped>
     .mineral-hero {
-        background-image: url('/imgs/pexels-pixabay-87651.webp');
+        background-image: url('/watercolor_geode_1.png');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;
@@ -384,14 +384,14 @@ import JumpToSection from "../components/JumpToSection.vue";
     }
     
     .mineral-banner1 {
-        background-image: url('/imgs/pexels-dominika-roseclay-1172842.webp');
+        background-image: url('/watercolor_geode_2.png');
         min-height: 45vh;
         background-position: center;
         background-size: cover
     }
     
     .mineral-banner2 {
-        background-image: url('/imgs/pexels-arthur-brognoli-2342505.webp');
+        background-image: url('/geology_globe_1.png');
         min-height: 45vh;
         background-position: center;
         background-size: cover

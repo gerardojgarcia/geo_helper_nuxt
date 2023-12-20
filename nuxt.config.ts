@@ -5,7 +5,7 @@ export default defineNuxtConfig({
 	modules: [
 		'@nuxtjs/tailwindcss',
 		['@nuxtjs/robots', { configPath: "~/config/robots.config" }],
-		'@nuxt/image-edge',
+		'@nuxt/image',
 		'@averjs/nuxt-compression',
 		'@nuxtjs/supabase'
 		

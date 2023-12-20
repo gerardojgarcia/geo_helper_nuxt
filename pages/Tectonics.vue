@@ -303,7 +303,7 @@ Lithosphere plates effectively float on the underlying soft asthenoshpere. Conti
 
     <style scoped>
     .tectonic-hero {
-        background-image: url('/imgs/pexels-pixabay-87651.webp');
+        background-image: url('/tectonics_1.png');
         height: 75vh;
         background-repeat: no-repeat;
         background-size: cover;

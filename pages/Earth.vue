@@ -233,7 +233,7 @@ export default {
             atoms (hydrogen and helium) of the universe developed within minutes of the
             big bang. These atoms formed vast gas clouds, called nebulae.
 
-            <img src="/imgs/chapter1/FIG01.04d_ESSGEO4_CH01.webp" alt="Red Shift" />
+            <nuxt-img src="/geologist_notes_1.png" alt="Geologist recording notes in their field notebook" format="webp" sizes="sm:100vw lg:75vw" preload/>
           </p>
           <p>
             Gravity caused clumps of gas in the nebulae that coalesce into flattened disks
@@ -268,9 +268,12 @@ export default {
             to 25-70km beneath continents. Oceanic crust is magic in compositions, whereas
             average upper continental crust is felicity to intermediate. The mantel is
             composed of ultramafic rock. The core is made of iron alloy.
-            <img
-              src="/imgs/chapter1/FIG01.13b_ESSGEO4_CH01.webp"
+            <nuxt-img
+              src="/sedimentary_globe.png"
               alt="Image of the layers of the earth"
+              preload
+              format="webp"
+              sizes="sm:100vw lg:75vw"
             />
 
             Studies of seismic waves have revealed that the mantle cab be subdivided into
