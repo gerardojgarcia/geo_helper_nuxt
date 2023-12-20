@@ -34,7 +34,7 @@ export default {
     </div>
 
     <div class="tutor-img hidden md:inline mt-2 mr-16 md:ml-8" data-aos="fade-up-right">
-      <img src="/geologist_research_1.png" alt="" class="w-full md:3/4" />
+      <nuxt-img src="/geologist_campsite_4.png" alt="" class="w-full md:3/4" />
     </div>
   </div>
 </template>

@@ -61,6 +61,7 @@ export default {
               type="text"
               v-model="email"
               name="email"
+              id="email"
               placeholder="Email"
               required
             />

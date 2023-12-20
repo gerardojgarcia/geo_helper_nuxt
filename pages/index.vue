@@ -69,7 +69,7 @@ export default {
         id: 4,
         topic: "Igneous Rocks",
         description: "Everything you wanted to knmow about Igneous Rocks",
-        image: "/imgs/img3.webp",
+        image: "/igneous_2.webp",
         link: "Igneous",
       },
       {
@@ -104,7 +104,7 @@ export default {
         id: 9,
         topic: "Mountains",
         description: "Everything you wanted to knmow about Mountains",
-        image: "/imgs/pexels-eberhard-grossgasteiger-1670187.webp",
+        image: "/mountains_1.webp",
         link: "Mountains",
       },
       {

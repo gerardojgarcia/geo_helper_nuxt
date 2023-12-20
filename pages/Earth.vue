@@ -203,7 +203,7 @@ export default {
       </div>
     </div>
     <div class="flex flex-col md:grid grid-cols-4 isolate md:bg-fixed md:top-52">
-      <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1">
+      <div class="m-0 col-span-1 fixed top-1/3 left-0 h-full z-1">
         <AppSideNav />
       </div>
 
@@ -274,6 +274,8 @@ export default {
               preload
               format="webp"
               sizes="sm:100vw lg:75vw"
+              width="600px"
+              class="m-auto my-8"
             />
 
             Studies of seismic waves have revealed that the mantle cab be subdivided into
@@ -369,9 +371,11 @@ export default {
             history.
           </p>
 
-          <img
-            src="/imgs/chapter1/FIG01.17_ESSGEO4_CH01.webp"
+          <nuxt-img
+            src="/fieldwork_1.webp"
             alt="Image of the layers of the earth"
+            preload
+            format="webp"
           />
           <p>
             - earth is chemically divided into a thin, rocky crust dominated by silicate
@@ -662,7 +666,7 @@ export default {
 
 <style scoped>
 .earth-hero {
-  background-image: url("/imgs/pexels-pixabay-87651.webp");
+  background-image: url("/geology_globe_1.png");
   height: 75vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -681,14 +685,14 @@ span {
 }
 
 .earth-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/geology_globe_1.png");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .earth-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/paleontologist_1.png");
   min-height: 45vh;
   background-position: center;
   background-size: cover;

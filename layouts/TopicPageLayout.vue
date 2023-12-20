@@ -12,8 +12,8 @@ export default {
         <p class="md:w-1/2 pl-2 mt-8 text-lg"></p>
       </div>
     </div>
-    <div class="flex flex-col md:grid grid-cols-4 isolate md:bg-fixed md:top-52">
-      <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1">
+    <div class="flex flex-col md:grid grid-cols-4 isolate md:bg-fixed md:top-40">
+      <div class="m-0 col-span-1 fixed top-1/3 left-0 z-1">
         <AppSideNav />
       </div>
 
@@ -29,16 +29,13 @@ export default {
 
           <p>.</p>
           <p>
-            <img src="/imgs/chapter1/FIG01.04d_ESSGEO4_CH01.webp" alt="Red Shift" />
+            <nuxt-img src="/" alt="Red Shift" />
           </p>
           <p></p>
           <p></p>
 
           <p>
-            <img
-              src="/imgs/chapter1/FIG01.13b_ESSGEO4_CH01.webp"
-              alt="Image of the layers of the earth"
-            />
+            <nuxt-img src="/" alt="Image of the layers of the earth" />
           </p>
 
           <p></p>
@@ -83,10 +80,7 @@ export default {
           <p></p>
           <p></p>
 
-          <img
-            src="/imgs/chapter1/FIG01.17_ESSGEO4_CH01.webp"
-            alt="Image of the layers of the earth"
-          />
+          <nuxt-img src="/" alt="Image of the layers of the earth" />
           <p></p>
           <p></p>
           <p></p>
@@ -262,11 +256,7 @@ export default {
             outer part is liquid. Circulation of iron atoms in the liquid outer core
             generates the magnetic filed of the Earth.
           </p>
-          <img
-            src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.webp"
-            alt="Image of the layers of the earth"
-            width="500px"
-          />
+          <nuxt-img src="/" alt="Image of the layers of the earth" width="500px" />
           <p>
             <span>Q: </span>What is the difference between the lithosphere and the
             asthenosphere? Which layer is softer and flows more easily? At what depth does

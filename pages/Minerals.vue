@@ -151,7 +151,7 @@ import JumpToSection from "../components/JumpToSection.vue";
 
           <div class="flex flex-col md:grid grid-cols-4 isolate md:bg-fixed md:top-52">
 
-          <div class="m-0 col-span-1 fixed top-1/2 left-0 h-full z-1 ">
+          <div class="m-0 col-span-1 fixed top-1/3 left-0 h-full z-1 ">
             <AppSideNav/>
 
           </div>

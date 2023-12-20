@@ -134,7 +134,7 @@ export default {
 <template>
   <div class="w-full flex flex-col text-left">
     <div class="igneous-hero bg-fixed pb-52">
-      <div class="w-1/2 ml-16 mt-32 text-white">
+      <div class="w-1/2 ml-16 mt-32 text-dark">
         <h1 class="text-7xl text-shadow-lg">Igneous Rocks</h1>
         <p class="w-1/2 pl-2 mt-8 text-lg">
           Everything you wanted to know about Igneous Rocks.
@@ -200,7 +200,7 @@ export default {
 
         <div class="igneous-banner1 w-full bg-fixed flex flex-col text-black">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+            class="question-box w-96 m-auto bg-white bg-opacity-75 backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
           >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
@@ -255,11 +255,13 @@ export default {
 
         <div class="igneous-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+            class="question-box w-96 m-auto bg-white bg-opacity-75 rounded-lg flex flex-col shadow-lg justify-center items-center"
           >
-            <strong class="text-4xl mt-8">Knowledge Check</strong>
 
-            <div class="w-full flex flex-col text-center mb-16">
+            <!--Knowledge CHeck-->
+            <strong class="text-4xl  text-black mt-8">Knowledge Check</strong>
+
+            <div class="w-full flex flex-col text-black text-center mb-16">
               <p class="mt-2 text-xl">Bombs, ash and cinders are all examples of _____</p>
               <p id="answer" class="text-xl"></p>
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
@@ -461,7 +463,7 @@ export default {
 
 <style scoped>
 .igneous-hero {
-  background-image: url("/imgs/pexels-pixabay-87651.webp");
+  background-image: url("/igneous_4.webp");
   height: 75vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -480,14 +482,14 @@ span {
 }
 
 .igneous-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/igneous_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .igneous-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/igneous_2.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;

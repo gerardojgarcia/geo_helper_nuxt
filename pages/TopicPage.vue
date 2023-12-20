@@ -21,7 +21,7 @@ export default {
         id: 1,
         topic: 'The Earth',
         description: "An overview of the Earth and it's life systems",
-        image: '/imgs/img1.webp',
+        image: '/earth_notebook_2.webp',
         link: 'Earth'
       },
 
@@ -29,7 +29,7 @@ export default {
         id: 2,
         topic: 'Minerals',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/pexels-pixabay-56030.webp',
+        image: '/watercolor_geode_2.png',
         link: "Minerals"
 
       },
@@ -38,7 +38,7 @@ export default {
         id: 3,
         topic: 'Tectonics',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img6.webp',
+        image: '/tectonics_1.png',
         link: "Tectonics"
 
       },
@@ -47,7 +47,7 @@ export default {
         id: 4,
         topic: 'Igneous Rocks',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img3.webp',
+        image: '/igneous_4.webp',
         link: "Igneous"
 
       },
@@ -55,7 +55,7 @@ export default {
         id: 5,
         topic: 'Volcanoes',
         description: "Everything you ssswanted to knmow about minerals",
-        image: '/imgs/pexels-pixabay-73830.webp',
+        image: '/eruption_1.webp',
         link: "Volcanoes"
 
       },
@@ -63,7 +63,7 @@ export default {
         id: 6,
         topic: 'Sedimentary Rocks',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img6.webp',
+        image: '/sedimentary_globe.png',
         link: "Sedimentary"
 
       },
@@ -71,7 +71,7 @@ export default {
         id: 7,
         topic: 'Metamorphic Rocks',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img5.webp',
+        image: '/metamorphism_1.webp',
         link: "Metamorphic"
 
       },
@@ -79,15 +79,15 @@ export default {
         id: 8,
         topic: 'Earthquakes',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img8.webp',
-        link: "Earthquake"
+        image: '/geology_earthquake_2.png',
+        link: "Earthquakes"
 
       },
       {
         id: 9,
         topic: 'Mountains',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/pexels-eberhard-grossgasteiger-1670187.webp',
+        image: '/mountains_1.webp',
         link: "Mountains"
 
       },
@@ -95,8 +95,8 @@ export default {
         id: 10,
         topic: 'Desert Geology',
         description: "Everything you wanted to knmow about minerals",
-        image: '/imgs/img2.webp',
-        link: "Desert"
+        image: '/desert_geo_1.webp',
+        link: "DesertGeology"
 
       },
 
