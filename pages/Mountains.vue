@@ -200,7 +200,8 @@ export default {
 
         <div class="mountain-banner1 w-full bg-fixed flex flex-col text-black">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -211,12 +212,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer2">
+                  @click="answer2"
+                >
                   Hot Spot
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer2">
+                  @click="wrongAnswer2"
+                >
                   Continental Rifts
                 </button>
               </div>
@@ -252,7 +255,8 @@ export default {
 
         <div class="mountain-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -261,12 +265,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="wrongAnswer">
+                  @click="wrongAnswer"
+                >
                   Volatiles
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="answer">
+                  @click="answer"
+                >
                   Pyroclastic Debris
                 </button>
               </div>
@@ -474,14 +480,14 @@ span {
 }
 
 .mountain-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/mountains_1.webp ");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .mountain-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/mountains_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;

@@ -1,125 +1,101 @@
-/imgs<script>
-
-  import Topics from "../components/Topics.vue";
-  import Tutoring from "../components/Tutoring.vue";
-  import Community from "../components/Community.vue";
+<script>
+import Topics from "../components/Topics.vue";
+import Tutoring from "../components/Tutoring.vue";
+import Community from "../components/Community.vue";
 
 export default {
   name: "TopicPage",
-  components: {Community, Tutoring, Topics},
+  components: { Community, Tutoring, Topics },
   data() {
     return {
-      topics: []
-    }
+      topics: [],
+    };
   },
 
   created() {
     this.topics = [
-
-
       {
         id: 1,
-        topic: 'The Earth',
+        topic: "The Earth",
         description: "An overview of the Earth and it's life systems",
-        image: '/earth_notebook_2.webp',
-        link: 'Earth'
+        image: "/earth_notebook_2.webp",
+        link: "Earth",
       },
 
       {
         id: 2,
-        topic: 'Minerals',
+        topic: "Minerals",
         description: "Everything you wanted to knmow about minerals",
-        image: '/watercolor_geode_2.png',
-        link: "Minerals"
-
+        image: "/watercolor_geode_2.png",
+        link: "Minerals",
       },
 
       {
         id: 3,
-        topic: 'Tectonics',
+        topic: "Tectonics",
         description: "Everything you wanted to knmow about minerals",
-        image: '/tectonics_1.png',
-        link: "Tectonics"
-
+        image: "/tectonics_1.png",
+        link: "Tectonics",
       },
 
       {
         id: 4,
-        topic: 'Igneous Rocks',
+        topic: "Igneous Rocks",
         description: "Everything you wanted to knmow about minerals",
-        image: '/igneous_4.webp',
-        link: "Igneous"
-
+        image: "/igneous_4.webp",
+        link: "Igneous",
       },
       {
         id: 5,
-        topic: 'Volcanoes',
+        topic: "Volcanoes",
         description: "Everything you ssswanted to knmow about minerals",
-        image: '/eruption_1.webp',
-        link: "Volcanoes"
-
+        image: "/eruption_1.webp",
+        link: "Volcanoes",
       },
       {
         id: 6,
-        topic: 'Sedimentary Rocks',
+        topic: "Sedimentary Rocks",
         description: "Everything you wanted to knmow about minerals",
-        image: '/sedimentary_globe.png',
-        link: "Sedimentary"
-
+        image: "/sedimentary_globe.png",
+        link: "Sedimentary",
       },
       {
         id: 7,
-        topic: 'Metamorphic Rocks',
+        topic: "Metamorphic Rocks",
         description: "Everything you wanted to knmow about minerals",
-        image: '/metamorphism_1.webp',
-        link: "Metamorphic"
-
+        image: "/metamorphism_1.webp",
+        link: "Metamorphic",
       },
       {
         id: 8,
-        topic: 'Earthquakes',
+        topic: "Earthquakes",
         description: "Everything you wanted to knmow about minerals",
-        image: '/geology_earthquake_2.png',
-        link: "Earthquakes"
-
+        image: "/geology_earthquake_2.png",
+        link: "Earthquakes",
       },
       {
         id: 9,
-        topic: 'Mountains',
+        topic: "Mountains",
         description: "Everything you wanted to knmow about minerals",
-        image: '/mountains_1.webp',
-        link: "Mountains"
-
+        image: "/mountains_1.webp",
+        link: "Mountains",
       },
       {
         id: 10,
-        topic: 'Desert Geology',
+        topic: "Desert Geology",
         description: "Everything you wanted to knmow about minerals",
-        image: '/desert_geo_1.webp',
-        link: "DesertGeology"
-
+        image: "/desert_geo_1.webp",
+        link: "DesertGeology",
       },
-
-
-
-
-
-
-    ]
+    ];
   },
-}
+};
 </script>
-
-
-
 
 <template>
   <div>
-
-      <Topics :topics="topics"/>
-    <Tutoring/>
-    <Community/>
-
-
+    <Topics :topics="topics" />
+    <Tutoring />
+    <Community />
   </div>
 </template>

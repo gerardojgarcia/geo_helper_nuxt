@@ -10,6 +10,7 @@ export default {
     name: String,
     topics: Array,
   },
+
   methods: {
     topicLeft() {
       const leftEl = document.getElementById("topics-box");
@@ -60,14 +61,14 @@ export default {
 
       <div>
         <button
-          class="bg-white border-0 p-6 focus:bg-red-300 focus:scale-90  duration-125"
+          class="bg-white border-0 p-6 focus:bg-red-300 focus:scale-90 duration-125"
           @click="topicLeft"
           aria-label="Move Items left"
         >
-          <font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl " />
+          <font-awesome-icon icon="fas fa-chevron-left" class="text-black text-2xl" />
         </button>
         <button
-          class="bg-white border-0 p-6 focus:bg-red-300 focus:scale-90  duration-125"
+          class="bg-white border-0 p-6 focus:bg-red-300 focus:scale-90 duration-125"
           aria-label="Move Items right"
           @click="topicRight"
         >

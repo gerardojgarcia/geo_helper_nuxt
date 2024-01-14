@@ -93,7 +93,8 @@ export default {
         {
           id: 1,
           term: "Asthenosphere",
-          definition: "the upper layer of the earth's mantle, below the lithosphere, in which there is relatively low resistance to plastic flow and convection is thought to occur.",
+          definition:
+            "the upper layer of the earth's mantle, below the lithosphere, in which there is relatively low resistance to plastic flow and convection is thought to occur.",
         },
         {
           id: 2,
@@ -103,42 +104,50 @@ export default {
         {
           id: 3,
           term: "Big Bang Theory",
-          definition: "The big bang is how astronomers explain the way the universe began. It is the idea that the universe began as just a single point, then expanded and stretched to grow as large as it is right now—and it is still stretching!",
+          definition:
+            "The big bang is how astronomers explain the way the universe began. It is the idea that the universe began as just a single point, then expanded and stretched to grow as large as it is right now—and it is still stretching!",
         },
         {
           id: 4,
           term: "Doppler Effect",
-          definition: "an increase (or decrease) in the frequency of sound, light, or other waves as the source and observer move toward (or away from) each other. The effect causes the sudden change in pitch noticeable in a passing siren, as well as the redshift seen by astronomers.",
+          definition:
+            "an increase (or decrease) in the frequency of sound, light, or other waves as the source and observer move toward (or away from) each other. The effect causes the sudden change in pitch noticeable in a passing siren, as well as the redshift seen by astronomers.",
         },
         {
           id: 5,
           term: "lithosphere",
-          definition: "the rigid outer part of the earth, consisting of the crust and upper mantle.",
+          definition:
+            "the rigid outer part of the earth, consisting of the crust and upper mantle.",
         },
         {
           id: 6,
           term: "mantle",
-          definition: "the region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks (mainly peridotite).",
+          definition:
+            "the region of the earth's interior between the crust and the core, believed to consist of hot, dense silicate rocks (mainly peridotite).",
         },
         {
           id: 7,
           term: "Moho",
-          definition: "he boundary surface between the earth's crust and the mantle, lying at a depth of about 6–7 miles (10–12 km) under the ocean bed and about 24–30 miles (40–50 km) under the continents.",
+          definition:
+            "he boundary surface between the earth's crust and the mantle, lying at a depth of about 6–7 miles (10–12 km) under the ocean bed and about 24–30 miles (40–50 km) under the continents.",
         },
         {
           id: 8,
           term: "planetesimal",
-          definition: "a minute planet; a body that could or did come together with many others under gravitation to form a planet.",
+          definition:
+            "a minute planet; a body that could or did come together with many others under gravitation to form a planet.",
         },
         {
           id: 9,
           term: "red shift",
-          definition: "the displacement of spectral lines toward longer wavelengths (the red end of the spectrum) in radiation from distant galaxies and celestial objects. This is interpreted as a Doppler shift that is proportional to the velocity of recession and thus to distance.",
+          definition:
+            "the displacement of spectral lines toward longer wavelengths (the red end of the spectrum) in radiation from distant galaxies and celestial objects. This is interpreted as a Doppler shift that is proportional to the velocity of recession and thus to distance.",
         },
         {
           id: 10,
           term: "nebular theory",
-          definition: "the theory that the solar and stellar systems were developed from a primeval nebula.",
+          definition:
+            "the theory that the solar and stellar systems were developed from a primeval nebula.",
         },
       ]);
   },
@@ -175,10 +184,6 @@ export default {
       this.$gtag.pageview("/earth");
     },
   },
-
-
-
-
 
   components: {
     JumpToSection,
@@ -233,7 +238,13 @@ export default {
             atoms (hydrogen and helium) of the universe developed within minutes of the
             big bang. These atoms formed vast gas clouds, called nebulae.
 
-            <nuxt-img src="/geologist_notes_1.png" alt="Geologist recording notes in their field notebook" format="webp" sizes="sm:100vw lg:75vw" preload/>
+            <nuxt-img
+              src="/geologist_notes_1.png"
+              alt="Geologist recording notes in their field notebook"
+              format="webp"
+              sizes="sm:100vw lg:75vw"
+              preload
+            />
           </p>
           <p>
             Gravity caused clumps of gas in the nebulae that coalesce into flattened disks
@@ -302,7 +313,9 @@ export default {
                 What gas is the atmosphere primarily composed of?
               </p>
               <p id="answer2" class="text-xl"></p>
-              <div class="md:w-1/2 flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-center md:items-center m-auto">
+              <div
+                class="md:w-1/2 flex flex-col space-y-2 md:space-y-0 md:flex-row md:justify-center md:items-center m-auto"
+              >
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
                   @click="answer2"
@@ -376,6 +389,7 @@ export default {
             alt="Image of the layers of the earth"
             preload
             format="webp"
+            width="600px"
           />
           <p>
             - earth is chemically divided into a thin, rocky crust dominated by silicate
@@ -399,14 +413,16 @@ export default {
 
         <div class="earth-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center "
+            class="question-box m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
           >
-            <strong class=" text-4xl mt-8">Knowledge Check</strong>
+            <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
               <p class="mt-2 text-xl">Which is more dense?</p>
               <p id="answer" class="text-xl"></p>
-              <div class="md:w-1/2 space-y-4 md:space-y-0 flex flex-col md:flex-row justify-center items-center m-auto">
+              <div
+                class="md:w-1/2 space-y-4 md:space-y-0 flex flex-col md:flex-row justify-center items-center m-auto"
+              >
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
                   @click="answer"
@@ -573,7 +589,7 @@ export default {
             generates the magnetic filed of the Earth.
           </p>
           <nuxt-img
-            src="/public/imgs/chapter1/FIG01.15ab_ESSGEO4_CH01.webp"
+            src="/earth_notebook_2.webp"
             alt="Image of the layers of the earth"
             width="500px"
           />
@@ -707,6 +723,4 @@ span {
     max-width: 350px;
   }
 }
-
-
 </style>

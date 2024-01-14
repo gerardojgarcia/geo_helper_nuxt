@@ -127,7 +127,7 @@ export default {
       </div>
 
       <div class="flex flex-col col-span-3 bg-fixed sticky left-64 px-16 overflow-auto">
-        <div id="summary" class="volcano-summary w-3/4 m-auto md:ml-72 mt-16 indent-2">
+        <div id="summary" class="volcano-summary w-3/4 m-auto mt-16 indent-2">
           <div class="mb-16">
             <strong class="text-5xl text-shadow-sm">Topic Summary</strong>
           </div>
@@ -159,7 +159,12 @@ export default {
             them according to their carbonates, and native metals.
           </p>
 
-          <img src="public/imgs/chapter2/FIG02.21d_ESSGEO4_CH02.webp" alt="" />
+          <nuxt-img
+            src="/eruption_3.webp"
+            alt="Image a volcanic eruption in a 3D style"
+            preload="true"
+            sizes="sm:100vw md:100vw lg:90vw"
+          />
 
           <p>
             silicate Volcano are the most common Volcano on Earth, the silicon-oxygen
@@ -178,7 +183,8 @@ export default {
 
         <div class="volcano-banner1 w-full bg-fixed flex flex-col text-black">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -189,12 +195,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer2">
+                  @click="answer2"
+                >
                   Salt
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer2">
+                  @click="wrongAnswer2"
+                >
                   Plastic
                 </button>
               </div>
@@ -233,7 +241,8 @@ export default {
 
         <div class="volcano-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -242,12 +251,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer">
+                  @click="answer"
+                >
                   Living Organisms
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer">
+                  @click="wrongAnswer"
+                >
                   Biotite
                 </button>
               </div>

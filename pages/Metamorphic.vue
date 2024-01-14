@@ -135,7 +135,7 @@ export default {
 <template>
   <div class="w-full flex flex-col text-left">
     <div class="metamorphic-hero bg-fixed pb-52">
-      <div class="w-1/2 ml-16 mt-32 ">
+      <div class="w-1/2 ml-16 mt-32">
         <h1 class="text-7xl text-shadow-lg text-dark">Metamorphic Rocks</h1>
         <p class="w-1/2 pl-2 mt-8 text-lg text-dark">
           Everything you wanted to know about metamorphic Rocks.
@@ -202,7 +202,8 @@ export default {
 
         <div class="metamorphic-banner1 w-full bg-fixed flex flex-col text-black">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -213,12 +214,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="answer2">
+                  @click="answer2"
+                >
                   Hot Spot
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="wrongAnswer2">
+                  @click="wrongAnswer2"
+                >
                   Continental Rifts
                 </button>
               </div>
@@ -254,7 +257,8 @@ export default {
 
         <div class="metamorphic-banner2 w-full bg-fixed flex flex-col text-white">
           <div
-            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center">
+            class="question-box w-96 m-auto backdrop-blur-sm rounded-lg flex flex-col shadow-lg justify-center items-center"
+          >
             <strong class="text-4xl mt-8">Knowledge Check</strong>
 
             <div class="w-full flex flex-col text-center mb-16">
@@ -263,12 +267,14 @@ export default {
               <div class="w-1/2 flex flex-row justify-center items-center m-auto">
                 <button
                   class="right text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white mr-4"
-                  @click="wrongAnswer">
+                  @click="wrongAnswer"
+                >
                   Volatiles
                 </button>
                 <button
                   class="wrong text-white rounded-sm bg-teal-500 shadow-md px-4 py-2 hover:bg-teal-400 border-0 hover:shadow-xl hover:text-white"
-                  @click="answer">
+                  @click="answer"
+                >
                   Pyroclastic Debris
                 </button>
               </div>
@@ -477,14 +483,14 @@ span {
 }
 
 .metamorphic-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/metamorphism_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .metamorphic-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/tectonics_2.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;

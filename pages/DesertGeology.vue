@@ -461,7 +461,7 @@ export default {
 
 <style scoped>
 .desert-hero {
-  background-image: url("/imgs/pexels-pixabay-87651.webp");
+  background-image: url("/desert_geo_1.webp");
   height: 75vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -480,14 +480,14 @@ span {
 }
 
 .desert-banner1 {
-  background-image: url("/imgs/pexels-dominika-roseclay-1172842.webp");
+  background-image: url("/desert_geo_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;
 }
 
 .desert-banner2 {
-  background-image: url("/imgs/pexels-arthur-brognoli-2342505.webp");
+  background-image: url("/desert_geo_1.webp");
   min-height: 45vh;
   background-position: center;
   background-size: cover;

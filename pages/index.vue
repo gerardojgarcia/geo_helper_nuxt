@@ -26,8 +26,7 @@ export default {
     Footer,
     ToTop,
     ToBottom,
-    AppImageUploader
-
+    AppImageUploader,
   },
   props: {
     name: String,
@@ -111,7 +110,7 @@ export default {
         id: 10,
         topic: "Desert Geology",
         description: "Everything you wanted to knmow about Desert Geology",
-        image: "/imgs/img2.webp",
+        image: "/desert_geo_1.webp",
         link: "DesertGeology",
       },
     ];
@@ -126,8 +125,8 @@ export default {
     <Topics :topics="topics" />
     <!--<AppGeoNews/>-->
     <Tutoring />
-    <!--<AppImageUploader/>-->
-    <AppImageUploaderLaravel/>
+
+    <!--<AppImageUploaderLaravel />-->
     <Community />
     <ToTop />
     <ToBottom />
