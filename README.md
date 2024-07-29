@@ -1,42 +1,50 @@
-# Nuxt 3 Minimal Starter
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+# EarthTutor
 
-## Setup
+Welcome to EarthTutor, your premier free online resource for learning Earth Sciences. EarthTutor is designed to aid students from grades K-12 in exploring various geologic topics through comprehensive informational content, quizzes, and flashcards. Our mission is to make learning about Earth accessible, engaging, and effective for students of all ages.
 
-Make sure to install the dependencies:
+## Features
 
-```bash
-# yarn
-yarn install
+- **Informative Content**: Explore a wide range of topics in Earth Sciences, crafted to be understandable and engaging for young learners.
+- **Interactive Quizzes**: Test your knowledge with quizzes tailored to different educational levels.
+- **Flashcards**: Reinforce learning and memory retention with flashcards that highlight key facts and concepts.
 
-# npm
+## Technologies Used
+
+EarthTutor is built with a variety of robust technologies and frameworks:
+
+- **Vue.js & Nuxt.js**: Our platform is powered by Vue.js and Nuxt.js, facilitating a dynamic and responsive user experience.
+- **Tailwind CSS**: Styled with Tailwind CSS for a modern and mobile-first design.
+- **Supabase**: Utilizing Supabase for real-time database interactions and backend services.
+- **FontAwesome**: Rich iconography provided by FontAwesome for intuitive and attractive UI elements.
+- **AOS**: Animate on scroll library to enhance visual engagement as users interact with content.
+- **Axios**: Promise-based HTTP client for making API requests.
+
+## Getting Started
+
+To get started with EarthTutor on your local machine, follow these steps:
+
+1. Clone the repository:
+
+git clone https://github.com/your-repository/earthtutor.git
+
+2. Install dependencies:
+
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
-```
+3. Run the development server:
 
-## Development Server
-
-Start the development server on http://localhost:3000
-
-```bash
 npm run dev
-```
 
-## Production
 
-Build the application for production:
+## Contribution
 
-```bash
-npm run build
-```
+Contributions are welcome! If you have suggestions or improvements, please fork the repository and submit a pull request.
 
-Locally preview production build:
+## License
 
-```bash
-npm run preview
-```
+EarthTutor is available under the MIT License. See the LICENSE file for more details.
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Contact
+
+For more information and support, please contact [mrgerardogarcia@icloud.com].
